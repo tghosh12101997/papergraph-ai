@@ -1,0 +1,25 @@
+services:
+  api:
+    build: ./backend
+    container_name: papergraph-api
+    ports:
+      - "8000:8000"
+    environment:
+      - FUSEKI_ENABLED=false
+      - FUSEKI_DATASET_URL=http://fuseki:3030/papergraph
+    volumes:
+      - ./backend/app/storage:/app/backend/app/storage
+
+  fuseki:
+    image: stain/jena-fuseki:latest
+    container_name: papergraph-fuseki
+    ports:
+      - "3030:3030"
+    environment:
+      - ADMIN_PASSWORD=admin
+      - FUSEKI_DATASET_1=papergraph
+    volumes:
+      - fuseki-data:/fuseki
+
+volumes:
+  fuseki-data:

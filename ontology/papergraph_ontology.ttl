@@ -1,0 +1,36 @@
+@prefix pg: <https://example.org/papergraph/> .
+@prefix schema: <https://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+pg:Method a rdfs:Class ;
+    rdfs:label "Method" .
+
+pg:Dataset a rdfs:Class ;
+    rdfs:label "Dataset" .
+
+pg:Model a rdfs:Class ;
+    rdfs:label "Model" .
+
+pg:Topic a rdfs:Class ;
+    rdfs:label "Topic" .
+
+pg:usesMethod a rdf:Property ;
+    rdfs:label "uses method" ;
+    rdfs:domain schema:ScholarlyArticle ;
+    rdfs:range pg:Method .
+
+pg:usesDataset a rdf:Property ;
+    rdfs:label "uses dataset" ;
+    rdfs:domain schema:ScholarlyArticle ;
+    rdfs:range pg:Dataset .
+
+pg:usesModel a rdf:Property ;
+    rdfs:label "uses model" ;
+    rdfs:domain schema:ScholarlyArticle ;
+    rdfs:range pg:Model .
+
+pg:studiesTopic a rdf:Property ;
+    rdfs:label "studies topic" ;
+    rdfs:domain schema:ScholarlyArticle ;
+    rdfs:range pg:Topic .
