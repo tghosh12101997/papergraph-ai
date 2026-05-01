@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:pg="https://example.org/papergraph/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:schema="https://schema.org/"
+>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/machine-learning">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Machine Learning</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/informatik">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Informatik</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/paper/2fd7b9e4">
+    <rdf:type rdf:resource="https://schema.org/ScholarlyArticle"/>
+    <dcterms:identifier>2fd7b9e4</dcterms:identifier>
+    <dcterms:title>Chukwuka Victor Obionwu</dcterms:title>
+    <dcterms:creator rdf:resource="https://example.org/papergraph/author/damanpreet-singh-walia-fakult"/>
+    <dcterms:creator rdf:resource="https://example.org/papergraph/author/guericke-universit"/>
+    <dcterms:creator rdf:resource="https://example.org/papergraph/author/informatik-otto"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/classification"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/machine-learning"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/ontology"/>
+    <pg:usesDataset rdf:resource="https://example.org/papergraph/dataset/labeled"/>
+    <pg:usesDataset rdf:resource="https://example.org/papergraph/dataset/labeled-dataset"/>
+    <schema:keywords>recommendation</schema:keywords>
+    <schema:keywords>individual</schema:keywords>
+    <schema:keywords>fakult</schema:keywords>
+    <schema:keywords>informatik</schema:keywords>
+    <schema:keywords>magdeburg</schema:keywords>
+    <schema:keywords>germany</schema:keywords>
+    <schema:keywords>personality</schema:keywords>
+    <schema:keywords>otto</schema:keywords>
+    <schema:keywords>guericke</schema:keywords>
+    <schema:keywords>universit</schema:keywords>
+    <schema:keywords>project</schema:keywords>
+    <schema:keywords>course</schema:keywords>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/classification"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/fakult"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/germany"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/individual"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/informatik"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/machine-learning"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/magdeburg"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/ontology"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/otto"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/personality"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/recommendation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/individual">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Individual</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/dataset/labeled-dataset">
+    <rdf:type rdf:resource="https://example.org/papergraph/Dataset"/>
+    <rdfs:label>labeled dataset</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/recommendation">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Recommendation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/author/informatik-otto">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Informatik Otto</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/machine-learning">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Machine Learning</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/otto">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Otto</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/ontology">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Ontology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/ontology">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Ontology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/fakult">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Fakult</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/classification">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Classification</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/author/guericke-universit">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Guericke Universit</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/personality">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Personality</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/classification">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Classification</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/author/damanpreet-singh-walia-fakult">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Damanpreet Singh Walia Fakult</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/magdeburg">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Magdeburg</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/dataset/labeled">
+    <rdf:type rdf:resource="https://example.org/papergraph/Dataset"/>
+    <rdfs:label>labeled</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/germany">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Germany</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

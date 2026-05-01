@@ -1,0 +1,98 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix pg: <https://example.org/papergraph/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://example.org/papergraph/paper/c4c94f44> a schema:ScholarlyArticle ;
+    dcterms:creator <https://example.org/papergraph/author/damanpreet-singh-walia-fakult>,
+        <https://example.org/papergraph/author/guericke-universit>,
+        <https://example.org/papergraph/author/informatik-otto> ;
+    dcterms:identifier "c4c94f44" ;
+    dcterms:title "Chukwuka Victor Obionwu" ;
+    pg:studiesTopic <https://example.org/papergraph/topic/classification>,
+        <https://example.org/papergraph/topic/fakult>,
+        <https://example.org/papergraph/topic/germany>,
+        <https://example.org/papergraph/topic/individual>,
+        <https://example.org/papergraph/topic/informatik>,
+        <https://example.org/papergraph/topic/machine-learning>,
+        <https://example.org/papergraph/topic/magdeburg>,
+        <https://example.org/papergraph/topic/ontology>,
+        <https://example.org/papergraph/topic/otto>,
+        <https://example.org/papergraph/topic/personality>,
+        <https://example.org/papergraph/topic/recommendation> ;
+    pg:usesDataset <https://example.org/papergraph/dataset/labeled>,
+        <https://example.org/papergraph/dataset/labeled-dataset> ;
+    pg:usesMethod <https://example.org/papergraph/method/classification>,
+        <https://example.org/papergraph/method/machine-learning>,
+        <https://example.org/papergraph/method/ontology> ;
+    schema:keywords "course",
+        "fakult",
+        "germany",
+        "guericke",
+        "individual",
+        "informatik",
+        "magdeburg",
+        "otto",
+        "personality",
+        "project",
+        "recommendation",
+        "universit" .
+
+<https://example.org/papergraph/author/damanpreet-singh-walia-fakult> a foaf:Person ;
+    rdfs:label "Damanpreet Singh Walia Fakult" .
+
+<https://example.org/papergraph/author/guericke-universit> a foaf:Person ;
+    rdfs:label "Guericke Universit" .
+
+<https://example.org/papergraph/author/informatik-otto> a foaf:Person ;
+    rdfs:label "Informatik Otto" .
+
+<https://example.org/papergraph/dataset/labeled> a pg:Dataset ;
+    rdfs:label "labeled" .
+
+<https://example.org/papergraph/dataset/labeled-dataset> a pg:Dataset ;
+    rdfs:label "labeled dataset" .
+
+<https://example.org/papergraph/method/classification> a pg:Method ;
+    rdfs:label "Classification" .
+
+<https://example.org/papergraph/method/machine-learning> a pg:Method ;
+    rdfs:label "Machine Learning" .
+
+<https://example.org/papergraph/method/ontology> a pg:Method ;
+    rdfs:label "Ontology" .
+
+<https://example.org/papergraph/topic/classification> a pg:Topic ;
+    rdfs:label "Classification" .
+
+<https://example.org/papergraph/topic/fakult> a pg:Topic ;
+    rdfs:label "Fakult" .
+
+<https://example.org/papergraph/topic/germany> a pg:Topic ;
+    rdfs:label "Germany" .
+
+<https://example.org/papergraph/topic/individual> a pg:Topic ;
+    rdfs:label "Individual" .
+
+<https://example.org/papergraph/topic/informatik> a pg:Topic ;
+    rdfs:label "Informatik" .
+
+<https://example.org/papergraph/topic/machine-learning> a pg:Topic ;
+    rdfs:label "Machine Learning" .
+
+<https://example.org/papergraph/topic/magdeburg> a pg:Topic ;
+    rdfs:label "Magdeburg" .
+
+<https://example.org/papergraph/topic/ontology> a pg:Topic ;
+    rdfs:label "Ontology" .
+
+<https://example.org/papergraph/topic/otto> a pg:Topic ;
+    rdfs:label "Otto" .
+
+<https://example.org/papergraph/topic/personality> a pg:Topic ;
+    rdfs:label "Personality" .
+
+<https://example.org/papergraph/topic/recommendation> a pg:Topic ;
+    rdfs:label "Recommendation" .
+

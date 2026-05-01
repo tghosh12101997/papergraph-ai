@@ -1,0 +1,184 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix pg: <https://example.org/papergraph/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://example.org/papergraph/paper/08a668da> a schema:ScholarlyArticle ;
+    dcterms:abstract "Project Partner preferences, and the breakdown of team projects has been a challenge both in industry, and university settings. While the consequence is severe in industrial settings, the loss of time, and invested effort in scenarios where university course project breaks down leads to distrust among members and eventual failure in some cases. Thus, it becomes necessary, the acquisition of Colaboratory skills which according to literature is acquired via collaboration with partners whose behaviors cancel out each other’s eccentricities. To this end, industry stakeholders have invested enormous resources on the development of user predictive models that optimally predict the outcome of a collaborative engagement. While this strategy is effective, government policies restrict its implementation in institutions of higher learning, thus making collaboration modelling challenging. Ergo, the objective of this endeavor investigation of noninvasive strategies for eliciting individual preferences that affect collaboration and the development of study recommendation partner system. Consequent on the literature review, we have employed a big five-oriented questionnaire input which is passed through a personality based similarity system based on collaborative filtering and utility-based recommendation system. Findings show that generated teams are academically balance which is the main objective of the study recommendation partner system." ;
+    dcterms:creator <https://example.org/papergraph/author/chukwuka-victor-obionwu>,
+        <https://example.org/papergraph/author/damanpreet-singh-walia>,
+        <https://example.org/papergraph/author/david-broneske>,
+        <https://example.org/papergraph/author/gunter-saake>,
+        <https://example.org/papergraph/author/lower-saxony>,
+        <https://example.org/papergraph/author/science-studies>,
+        <https://example.org/papergraph/author/taruna-tiwari>,
+        <https://example.org/papergraph/author/tathagatha-ghosh> ;
+    dcterms:identifier "08a668da" ;
+    dcterms:title "Fakult¨at f¨ur Informatik Otto von Guericke Universit¨at" ;
+    pg:studiesTopic <https://example.org/papergraph/topic/big-five>,
+        <https://example.org/papergraph/topic/classification>,
+        <https://example.org/papergraph/topic/collaboration>,
+        <https://example.org/papergraph/topic/collaborative-filtering>,
+        <https://example.org/papergraph/topic/content-based-filtering>,
+        <https://example.org/papergraph/topic/cosine-similarity>,
+        <https://example.org/papergraph/topic/knn>,
+        <https://example.org/papergraph/topic/machine-learning>,
+        <https://example.org/papergraph/topic/ontology>,
+        <https://example.org/papergraph/topic/questionnaire>,
+        <https://example.org/papergraph/topic/recommendation-systems>,
+        <https://example.org/papergraph/topic/team-formation-algorithm>,
+        <https://example.org/papergraph/topic/utility-based-recommendation> ;
+    pg:usesDataset <https://example.org/papergraph/dataset/academic-scores>,
+        <https://example.org/papergraph/dataset/and-data>,
+        <https://example.org/papergraph/dataset/available-data>,
+        <https://example.org/papergraph/dataset/labeled-data>,
+        <https://example.org/papergraph/dataset/labeled-dataset>,
+        <https://example.org/papergraph/dataset/questionnaire-responses>,
+        <https://example.org/papergraph/dataset/student-personality-profiles> ;
+    pg:usesMethod <https://example.org/papergraph/method/classification>,
+        <https://example.org/papergraph/method/collaborative-filtering>,
+        <https://example.org/papergraph/method/content-based-filtering>,
+        <https://example.org/papergraph/method/cosine-similarity>,
+        <https://example.org/papergraph/method/knn>,
+        <https://example.org/papergraph/method/machine-learning>,
+        <https://example.org/papergraph/method/ontology>,
+        <https://example.org/papergraph/method/questionnaire>,
+        <https://example.org/papergraph/method/team-formation-algorithm>,
+        <https://example.org/papergraph/method/utility-based-recommendation> ;
+    pg:usesModel <https://example.org/papergraph/model/big-five-personality-model>,
+        <https://example.org/papergraph/model/collaborative-filtering-recommender>,
+        <https://example.org/papergraph/model/knn>,
+        <https://example.org/papergraph/model/utility-based-recommender> ;
+    schema:keywords "Big Five",
+        "Collaboration",
+        "Recommendation Systems" .
+
+<https://example.org/papergraph/author/chukwuka-victor-obionwu> a foaf:Person ;
+    rdfs:label "Chukwuka Victor Obionwu" .
+
+<https://example.org/papergraph/author/damanpreet-singh-walia> a foaf:Person ;
+    rdfs:label "Damanpreet Singh Walia" .
+
+<https://example.org/papergraph/author/david-broneske> a foaf:Person ;
+    rdfs:label "David Broneske" .
+
+<https://example.org/papergraph/author/gunter-saake> a foaf:Person ;
+    rdfs:label "Gunter Saake" .
+
+<https://example.org/papergraph/author/lower-saxony> a foaf:Person ;
+    rdfs:label "Lower Saxony" .
+
+<https://example.org/papergraph/author/science-studies> a foaf:Person ;
+    rdfs:label "Science Studies" .
+
+<https://example.org/papergraph/author/taruna-tiwari> a foaf:Person ;
+    rdfs:label "Taruna Tiwari" .
+
+<https://example.org/papergraph/author/tathagatha-ghosh> a foaf:Person ;
+    rdfs:label "Tathagatha Ghosh" .
+
+<https://example.org/papergraph/dataset/academic-scores> a pg:Dataset ;
+    rdfs:label "academic scores" .
+
+<https://example.org/papergraph/dataset/and-data> a pg:Dataset ;
+    rdfs:label "and Data" .
+
+<https://example.org/papergraph/dataset/available-data> a pg:Dataset ;
+    rdfs:label "available data" .
+
+<https://example.org/papergraph/dataset/labeled-data> a pg:Dataset ;
+    rdfs:label "labeled data" .
+
+<https://example.org/papergraph/dataset/labeled-dataset> a pg:Dataset ;
+    rdfs:label "labeled dataset" .
+
+<https://example.org/papergraph/dataset/questionnaire-responses> a pg:Dataset ;
+    rdfs:label "questionnaire responses" .
+
+<https://example.org/papergraph/dataset/student-personality-profiles> a pg:Dataset ;
+    rdfs:label "Student Personality Profiles" .
+
+<https://example.org/papergraph/method/classification> a pg:Method ;
+    rdfs:label "Classification" .
+
+<https://example.org/papergraph/method/collaborative-filtering> a pg:Method ;
+    rdfs:label "Collaborative Filtering" .
+
+<https://example.org/papergraph/method/content-based-filtering> a pg:Method ;
+    rdfs:label "Content-Based Filtering" .
+
+<https://example.org/papergraph/method/cosine-similarity> a pg:Method ;
+    rdfs:label "Cosine Similarity" .
+
+<https://example.org/papergraph/method/knn> a pg:Method ;
+    rdfs:label "KNN" .
+
+<https://example.org/papergraph/method/machine-learning> a pg:Method ;
+    rdfs:label "Machine Learning" .
+
+<https://example.org/papergraph/method/ontology> a pg:Method ;
+    rdfs:label "Ontology" .
+
+<https://example.org/papergraph/method/questionnaire> a pg:Method ;
+    rdfs:label "Questionnaire" .
+
+<https://example.org/papergraph/method/team-formation-algorithm> a pg:Method ;
+    rdfs:label "Team Formation Algorithm" .
+
+<https://example.org/papergraph/method/utility-based-recommendation> a pg:Method ;
+    rdfs:label "Utility-Based Recommendation" .
+
+<https://example.org/papergraph/model/big-five-personality-model> a pg:Model ;
+    rdfs:label "Big Five personality model" .
+
+<https://example.org/papergraph/model/collaborative-filtering-recommender> a pg:Model ;
+    rdfs:label "Collaborative Filtering Recommender",
+        "Collaborative filtering Recommender" .
+
+<https://example.org/papergraph/model/knn> a pg:Model ;
+    rdfs:label "KNN",
+        "knn" .
+
+<https://example.org/papergraph/model/utility-based-recommender> a pg:Model ;
+    rdfs:label "Utility-Based Recommender" .
+
+<https://example.org/papergraph/topic/big-five> a pg:Topic ;
+    rdfs:label "Big Five" .
+
+<https://example.org/papergraph/topic/classification> a pg:Topic ;
+    rdfs:label "Classification" .
+
+<https://example.org/papergraph/topic/collaboration> a pg:Topic ;
+    rdfs:label "Collaboration" .
+
+<https://example.org/papergraph/topic/collaborative-filtering> a pg:Topic ;
+    rdfs:label "Collaborative Filtering" .
+
+<https://example.org/papergraph/topic/content-based-filtering> a pg:Topic ;
+    rdfs:label "Content-Based Filtering" .
+
+<https://example.org/papergraph/topic/cosine-similarity> a pg:Topic ;
+    rdfs:label "Cosine Similarity" .
+
+<https://example.org/papergraph/topic/knn> a pg:Topic ;
+    rdfs:label "KNN" .
+
+<https://example.org/papergraph/topic/machine-learning> a pg:Topic ;
+    rdfs:label "Machine Learning" .
+
+<https://example.org/papergraph/topic/ontology> a pg:Topic ;
+    rdfs:label "Ontology" .
+
+<https://example.org/papergraph/topic/questionnaire> a pg:Topic ;
+    rdfs:label "Questionnaire" .
+
+<https://example.org/papergraph/topic/recommendation-systems> a pg:Topic ;
+    rdfs:label "Recommendation Systems" .
+
+<https://example.org/papergraph/topic/team-formation-algorithm> a pg:Topic ;
+    rdfs:label "Team Formation Algorithm" .
+
+<https://example.org/papergraph/topic/utility-based-recommendation> a pg:Topic ;
+    rdfs:label "Utility-Based Recommendation" .
+

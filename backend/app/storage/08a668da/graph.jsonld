@@ -1,0 +1,638 @@
+[
+  {
+    "@id": "https://example.org/papergraph/dataset/and-data",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "and Data"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/david-broneske",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "David Broneske"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/gunter-saake",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Gunter Saake"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/tathagatha-ghosh",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Tathagatha Ghosh"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/labeled-data",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "labeled data"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/damanpreet-singh-walia",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Damanpreet Singh Walia"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/model/knn",
+    "@type": [
+      "https://example.org/papergraph/Model"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "knn"
+      },
+      {
+        "@value": "KNN"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/model/collaborative-filtering-recommender",
+    "@type": [
+      "https://example.org/papergraph/Model"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Collaborative filtering Recommender"
+      },
+      {
+        "@value": "Collaborative Filtering Recommender"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/machine-learning",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Machine Learning"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/taruna-tiwari",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Taruna Tiwari"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/labeled-dataset",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "labeled dataset"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/collaborative-filtering",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Collaborative Filtering"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/model/utility-based-recommender",
+    "@type": [
+      "https://example.org/papergraph/Model"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Utility-Based Recommender"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/utility-based-recommendation",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Utility-Based Recommendation"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/collaborative-filtering",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Collaborative Filtering"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/academic-scores",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "academic scores"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/cosine-similarity",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Cosine Similarity"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/questionnaire-responses",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "questionnaire responses"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/questionnaire",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Questionnaire"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/collaboration",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Collaboration"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/machine-learning",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Machine Learning"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/content-based-filtering",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Content-Based Filtering"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/available-data",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "available data"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/chukwuka-victor-obionwu",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Chukwuka Victor Obionwu"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/classification",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Classification"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/cosine-similarity",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Cosine Similarity"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/big-five",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Big Five"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/team-formation-algorithm",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Team Formation Algorithm"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/ontology",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Ontology"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/knn",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "KNN"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/science-studies",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Science Studies"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/model/big-five-personality-model",
+    "@type": [
+      "https://example.org/papergraph/Model"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Big Five personality model"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/ontology",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Ontology"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/recommendation-systems",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Recommendation Systems"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/lower-saxony",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Lower Saxony"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/team-formation-algorithm",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Team Formation Algorithm"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/paper/08a668da",
+    "@type": [
+      "https://schema.org/ScholarlyArticle"
+    ],
+    "http://purl.org/dc/terms/abstract": [
+      {
+        "@value": "Project Partner preferences, and the breakdown of team projects has been a challenge both in industry, and university settings. While the consequence is severe in industrial settings, the loss of time, and invested effort in scenarios where university course project breaks down leads to distrust among members and eventual failure in some cases. Thus, it becomes necessary, the acquisition of Colaboratory skills which according to literature is acquired via collaboration with partners whose behaviors cancel out each other’s eccentricities. To this end, industry stakeholders have invested enormous resources on the development of user predictive models that optimally predict the outcome of a collaborative engagement. While this strategy is effective, government policies restrict its implementation in institutions of higher learning, thus making collaboration modelling challenging. Ergo, the objective of this endeavor investigation of noninvasive strategies for eliciting individual preferences that affect collaboration and the development of study recommendation partner system. Consequent on the literature review, we have employed a big five-oriented questionnaire input which is passed through a personality based similarity system based on collaborative filtering and utility-based recommendation system. Findings show that generated teams are academically balance which is the main objective of the study recommendation partner system."
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "https://example.org/papergraph/author/chukwuka-victor-obionwu"
+      },
+      {
+        "@id": "https://example.org/papergraph/author/damanpreet-singh-walia"
+      },
+      {
+        "@id": "https://example.org/papergraph/author/taruna-tiwari"
+      },
+      {
+        "@id": "https://example.org/papergraph/author/tathagatha-ghosh"
+      },
+      {
+        "@id": "https://example.org/papergraph/author/david-broneske"
+      },
+      {
+        "@id": "https://example.org/papergraph/author/science-studies"
+      },
+      {
+        "@id": "https://example.org/papergraph/author/lower-saxony"
+      },
+      {
+        "@id": "https://example.org/papergraph/author/gunter-saake"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "08a668da"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Fakult¨at f¨ur Informatik Otto von Guericke Universit¨at"
+      }
+    ],
+    "https://example.org/papergraph/studiesTopic": [
+      {
+        "@id": "https://example.org/papergraph/topic/big-five"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/collaboration"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/recommendation-systems"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/classification"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/collaborative-filtering"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/content-based-filtering"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/cosine-similarity"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/knn"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/machine-learning"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/ontology"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/questionnaire"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/team-formation-algorithm"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/utility-based-recommendation"
+      }
+    ],
+    "https://example.org/papergraph/usesDataset": [
+      {
+        "@id": "https://example.org/papergraph/dataset/academic-scores"
+      },
+      {
+        "@id": "https://example.org/papergraph/dataset/and-data"
+      },
+      {
+        "@id": "https://example.org/papergraph/dataset/available-data"
+      },
+      {
+        "@id": "https://example.org/papergraph/dataset/labeled-data"
+      },
+      {
+        "@id": "https://example.org/papergraph/dataset/labeled-dataset"
+      },
+      {
+        "@id": "https://example.org/papergraph/dataset/questionnaire-responses"
+      },
+      {
+        "@id": "https://example.org/papergraph/dataset/student-personality-profiles"
+      }
+    ],
+    "https://example.org/papergraph/usesMethod": [
+      {
+        "@id": "https://example.org/papergraph/method/classification"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/collaborative-filtering"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/content-based-filtering"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/cosine-similarity"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/knn"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/machine-learning"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/ontology"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/questionnaire"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/team-formation-algorithm"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/utility-based-recommendation"
+      }
+    ],
+    "https://example.org/papergraph/usesModel": [
+      {
+        "@id": "https://example.org/papergraph/model/big-five-personality-model"
+      },
+      {
+        "@id": "https://example.org/papergraph/model/collaborative-filtering-recommender"
+      },
+      {
+        "@id": "https://example.org/papergraph/model/knn"
+      },
+      {
+        "@id": "https://example.org/papergraph/model/utility-based-recommender"
+      }
+    ],
+    "https://schema.org/keywords": [
+      {
+        "@value": "Big Five"
+      },
+      {
+        "@value": "Collaboration"
+      },
+      {
+        "@value": "Recommendation Systems"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/knn",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "KNN"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/student-personality-profiles",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Student Personality Profiles"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/utility-based-recommendation",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Utility-Based Recommendation"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/questionnaire",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Questionnaire"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/classification",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Classification"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/content-based-filtering",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Content-Based Filtering"
+      }
+    ]
+  }
+]

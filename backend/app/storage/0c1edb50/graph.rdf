@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:pg="https://example.org/papergraph/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:schema="https://schema.org/"
+>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/positional-encoding">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Positional Encoding</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/paper/0c1edb50">
+    <rdf:type rdf:resource="https://schema.org/ScholarlyArticle"/>
+    <dcterms:identifier>0c1edb50</dcterms:identifier>
+    <dcterms:title>Attention Is All You Need</dcterms:title>
+    <dcterms:abstract>The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English- to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data. ∗</dcterms:abstract>
+    <dcterms:creator rdf:resource="https://example.org/papergraph/author/ashish-vaswani"/>
+    <dcterms:creator rdf:resource="https://example.org/papergraph/author/noam-shazeer"/>
+    <dcterms:creator rdf:resource="https://example.org/papergraph/author/niki-parmar"/>
+    <dcterms:creator rdf:resource="https://example.org/papergraph/author/jakob-uszkoreit"/>
+    <dcterms:creator rdf:resource="https://example.org/papergraph/author/llion-jones"/>
+    <dcterms:creator rdf:resource="https://example.org/papergraph/author/aidan-n-gomez"/>
+    <dcterms:creator rdf:resource="https://example.org/papergraph/author/ukasz-kaiser"/>
+    <dcterms:creator rdf:resource="https://example.org/papergraph/author/illia-polosukhin"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/attention-mechanism"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/deep-learning"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/encoder-decoder"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/feed-forward-network"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/gated-recurrent"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/long-short-term-memory"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/lstm"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/multi-head-attention"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/natural-language-processing"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/positional-encoding"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/recurrent-neural-network"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/rnn"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/scaled-dot-product-attention"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/self-attention"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/transformer"/>
+    <pg:usesDataset rdf:resource="https://example.org/papergraph/dataset/annotated-corpus"/>
+    <pg:usesDataset rdf:resource="https://example.org/papergraph/dataset/english-french-dataset"/>
+    <pg:usesDataset rdf:resource="https://example.org/papergraph/dataset/english-german-dataset"/>
+    <pg:usesDataset rdf:resource="https://example.org/papergraph/dataset/penn-treebank"/>
+    <pg:usesDataset rdf:resource="https://example.org/papergraph/dataset/training-data"/>
+    <pg:usesDataset rdf:resource="https://example.org/papergraph/dataset/wall-street-journal"/>
+    <pg:usesDataset rdf:resource="https://example.org/papergraph/dataset/wmt-2014-english-french"/>
+    <pg:usesDataset rdf:resource="https://example.org/papergraph/dataset/wmt-2014-english-german"/>
+    <pg:usesDataset rdf:resource="https://example.org/papergraph/dataset/wmt-2014-english-to-french"/>
+    <pg:usesDataset rdf:resource="https://example.org/papergraph/dataset/wmt-2014-english-to-german"/>
+    <pg:usesDataset rdf:resource="https://example.org/papergraph/dataset/wsj"/>
+    <pg:usesModel rdf:resource="https://example.org/papergraph/model/bytenet"/>
+    <pg:usesModel rdf:resource="https://example.org/papergraph/model/convs2s"/>
+    <pg:usesModel rdf:resource="https://example.org/papergraph/model/gnmt"/>
+    <pg:usesModel rdf:resource="https://example.org/papergraph/model/lstm"/>
+    <pg:usesModel rdf:resource="https://example.org/papergraph/model/multi-head-attention"/>
+    <pg:usesModel rdf:resource="https://example.org/papergraph/model/rnn"/>
+    <pg:usesModel rdf:resource="https://example.org/papergraph/model/scaled-dot-product-attention"/>
+    <pg:usesModel rdf:resource="https://example.org/papergraph/model/self-attention"/>
+    <pg:usesModel rdf:resource="https://example.org/papergraph/model/transformer"/>
+    <schema:keywords>Transformer</schema:keywords>
+    <schema:keywords>Attention Mechanism</schema:keywords>
+    <schema:keywords>translation</schema:keywords>
+    <schema:keywords>bleu</schema:keywords>
+    <schema:keywords>training</schema:keywords>
+    <schema:keywords>encoder</schema:keywords>
+    <schema:keywords>decoder</schema:keywords>
+    <schema:keywords>attention</schema:keywords>
+    <schema:keywords>tasks</schema:keywords>
+    <schema:keywords>english</schema:keywords>
+    <schema:keywords>task</schema:keywords>
+    <schema:keywords>dominant</schema:keywords>
+    <schema:keywords>sequence</schema:keywords>
+    <schema:keywords>transduction</schema:keywords>
+    <schema:keywords>complex</schema:keywords>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/transformer"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/attention-mechanism"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/translation"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/bleu"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/training"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/encoder"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/decoder"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/attention"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/deep-learning"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/encoder-decoder"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/feed-forward-network"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/gated-recurrent"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/long-short-term-memory"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/lstm"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/multi-head-attention"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/author/illia-polosukhin">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Illia Polosukhin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/dataset/wmt-2014-english-to-french">
+    <rdf:type rdf:resource="https://example.org/papergraph/Dataset"/>
+    <rdfs:label>WMT 2014 English-to-French</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/model/multi-head-attention">
+    <rdf:type rdf:resource="https://example.org/papergraph/Model"/>
+    <rdfs:label>multi-head attention</rdfs:label>
+    <rdfs:label>Multi-head attention</rdfs:label>
+    <rdfs:label>Multi-Head Attention</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/dataset/english-french-dataset">
+    <rdf:type rdf:resource="https://example.org/papergraph/Dataset"/>
+    <rdfs:label>English-French dataset</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/attention-mechanism">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Attention Mechanism</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/dataset/training-data">
+    <rdf:type rdf:resource="https://example.org/papergraph/Dataset"/>
+    <rdfs:label>training data</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/dataset/wmt-2014-english-to-german">
+    <rdf:type rdf:resource="https://example.org/papergraph/Dataset"/>
+    <rdfs:label>WMT 2014 English-to-German</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/deep-learning">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Deep Learning</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/dataset/english-german-dataset">
+    <rdf:type rdf:resource="https://example.org/papergraph/Dataset"/>
+    <rdfs:label>English-German dataset</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/model/self-attention">
+    <rdf:type rdf:resource="https://example.org/papergraph/Model"/>
+    <rdfs:label>self-attention</rdfs:label>
+    <rdfs:label>Self-attention</rdfs:label>
+    <rdfs:label>Self-Attention</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/rnn">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>RNN</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/author/jakob-uszkoreit">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Jakob Uszkoreit</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/lstm">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>LSTM</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/training">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Training</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/dataset/annotated-corpus">
+    <rdf:type rdf:resource="https://example.org/papergraph/Dataset"/>
+    <rdfs:label>annotated corpus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/model/rnn">
+    <rdf:type rdf:resource="https://example.org/papergraph/Model"/>
+    <rdfs:label>RNN</rdfs:label>
+    <rdfs:label>rnn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/deep-learning">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Deep Learning</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/author/niki-parmar">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Niki Parmar</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/transformer">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Transformer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/model/gnmt">
+    <rdf:type rdf:resource="https://example.org/papergraph/Model"/>
+    <rdfs:label>GNMT</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/author/llion-jones">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Llion Jones</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/bleu">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Bleu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/model/lstm">
+    <rdf:type rdf:resource="https://example.org/papergraph/Model"/>
+    <rdfs:label>LSTM</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/long-short-term-memory">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Long Short-Term Memory</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/scaled-dot-product-attention">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Scaled Dot-Product Attention</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/dataset/wall-street-journal">
+    <rdf:type rdf:resource="https://example.org/papergraph/Dataset"/>
+    <rdfs:label>Wall Street Journal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/natural-language-processing">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Natural Language Processing</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/multi-head-attention">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Multi-Head Attention</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/translation">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Translation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/model/convs2s">
+    <rdf:type rdf:resource="https://example.org/papergraph/Model"/>
+    <rdfs:label>ConvS2S</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/dataset/wmt-2014-english-german">
+    <rdf:type rdf:resource="https://example.org/papergraph/Dataset"/>
+    <rdfs:label>WMT 2014 English-German</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/long-short-term-memory">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Long Short-Term Memory</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/dataset/penn-treebank">
+    <rdf:type rdf:resource="https://example.org/papergraph/Dataset"/>
+    <rdfs:label>Penn Treebank</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/lstm">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>LSTM</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/feed-forward-network">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Feed-Forward Network</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/gated-recurrent">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Gated Recurrent</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/model/scaled-dot-product-attention">
+    <rdf:type rdf:resource="https://example.org/papergraph/Model"/>
+    <rdfs:label>Scaled Dot-Product Attention</rdfs:label>
+    <rdfs:label>scaled dot-product attention</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/encoder-decoder">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Encoder-Decoder</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/multi-head-attention">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Multi-Head Attention</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/author/noam-shazeer">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Noam Shazeer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/model/bytenet">
+    <rdf:type rdf:resource="https://example.org/papergraph/Model"/>
+    <rdfs:label>ByteNet</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/attention-mechanism">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Attention Mechanism</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/model/transformer">
+    <rdf:type rdf:resource="https://example.org/papergraph/Model"/>
+    <rdfs:label>Transformer</rdfs:label>
+    <rdfs:label>transformer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/dataset/wmt-2014-english-french">
+    <rdf:type rdf:resource="https://example.org/papergraph/Dataset"/>
+    <rdfs:label>WMT 2014 English-French</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/decoder">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Decoder</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/encoder-decoder">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Encoder-Decoder</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/recurrent-neural-network">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Recurrent Neural Network</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/transformer">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Transformer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/author/aidan-n-gomez">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Aidan N. Gomez</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/dataset/wsj">
+    <rdf:type rdf:resource="https://example.org/papergraph/Dataset"/>
+    <rdfs:label>WSJ</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/gated-recurrent">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Gated Recurrent</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/encoder">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Encoder</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/author/ukasz-kaiser">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Łukasz Kaiser</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/author/ashish-vaswani">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Ashish Vaswani</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/self-attention">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Self-Attention</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/attention">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Attention</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/feed-forward-network">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Feed-Forward Network</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

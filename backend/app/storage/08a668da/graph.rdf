@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:pg="https://example.org/papergraph/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:schema="https://schema.org/"
+>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/big-five">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Big Five</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/questionnaire">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Questionnaire</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/paper/08a668da">
+    <rdf:type rdf:resource="https://schema.org/ScholarlyArticle"/>
+    <dcterms:identifier>08a668da</dcterms:identifier>
+    <dcterms:title>Fakult¨at f¨ur Informatik Otto von Guericke Universit¨at</dcterms:title>
+    <dcterms:abstract>Project Partner preferences, and the breakdown of team projects has been a challenge both in industry, and university settings. While the consequence is severe in industrial settings, the loss of time, and invested effort in scenarios where university course project breaks down leads to distrust among members and eventual failure in some cases. Thus, it becomes necessary, the acquisition of Colaboratory skills which according to literature is acquired via collaboration with partners whose behaviors cancel out each other’s eccentricities. To this end, industry stakeholders have invested enormous resources on the development of user predictive models that optimally predict the outcome of a collaborative engagement. While this strategy is effective, government policies restrict its implementation in institutions of higher learning, thus making collaboration modelling challenging. Ergo, the objective of this endeavor investigation of noninvasive strategies for eliciting individual preferences that affect collaboration and the development of study recommendation partner system. Consequent on the literature review, we have employed a big five-oriented questionnaire input which is passed through a personality based similarity system based on collaborative filtering and utility-based recommendation system. Findings show that generated teams are academically balance which is the main objective of the study recommendation partner system.</dcterms:abstract>
+    <dcterms:creator rdf:resource="https://example.org/papergraph/author/chukwuka-victor-obionwu"/>
+    <dcterms:creator rdf:resource="https://example.org/papergraph/author/damanpreet-singh-walia"/>
+    <dcterms:creator rdf:resource="https://example.org/papergraph/author/taruna-tiwari"/>
+    <dcterms:creator rdf:resource="https://example.org/papergraph/author/tathagatha-ghosh"/>
+    <dcterms:creator rdf:resource="https://example.org/papergraph/author/david-broneske"/>
+    <dcterms:creator rdf:resource="https://example.org/papergraph/author/science-studies"/>
+    <dcterms:creator rdf:resource="https://example.org/papergraph/author/lower-saxony"/>
+    <dcterms:creator rdf:resource="https://example.org/papergraph/author/gunter-saake"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/classification"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/collaborative-filtering"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/content-based-filtering"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/cosine-similarity"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/knn"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/machine-learning"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/ontology"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/questionnaire"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/team-formation-algorithm"/>
+    <pg:usesMethod rdf:resource="https://example.org/papergraph/method/utility-based-recommendation"/>
+    <pg:usesDataset rdf:resource="https://example.org/papergraph/dataset/academic-scores"/>
+    <pg:usesDataset rdf:resource="https://example.org/papergraph/dataset/and-data"/>
+    <pg:usesDataset rdf:resource="https://example.org/papergraph/dataset/available-data"/>
+    <pg:usesDataset rdf:resource="https://example.org/papergraph/dataset/labeled-data"/>
+    <pg:usesDataset rdf:resource="https://example.org/papergraph/dataset/labeled-dataset"/>
+    <pg:usesDataset rdf:resource="https://example.org/papergraph/dataset/questionnaire-responses"/>
+    <pg:usesDataset rdf:resource="https://example.org/papergraph/dataset/student-personality-profiles"/>
+    <pg:usesModel rdf:resource="https://example.org/papergraph/model/big-five-personality-model"/>
+    <pg:usesModel rdf:resource="https://example.org/papergraph/model/collaborative-filtering-recommender"/>
+    <pg:usesModel rdf:resource="https://example.org/papergraph/model/knn"/>
+    <pg:usesModel rdf:resource="https://example.org/papergraph/model/utility-based-recommender"/>
+    <schema:keywords>Big Five</schema:keywords>
+    <schema:keywords>Collaboration</schema:keywords>
+    <schema:keywords>Recommendation Systems</schema:keywords>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/big-five"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/collaboration"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/recommendation-systems"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/classification"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/collaborative-filtering"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/content-based-filtering"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/cosine-similarity"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/knn"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/machine-learning"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/ontology"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/questionnaire"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/team-formation-algorithm"/>
+    <pg:studiesTopic rdf:resource="https://example.org/papergraph/topic/utility-based-recommendation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/author/taruna-tiwari">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Taruna Tiwari</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/author/tathagatha-ghosh">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Tathagatha Ghosh</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/model/knn">
+    <rdf:type rdf:resource="https://example.org/papergraph/Model"/>
+    <rdfs:label>knn</rdfs:label>
+    <rdfs:label>KNN</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/team-formation-algorithm">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Team Formation Algorithm</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/knn">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>KNN</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/classification">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Classification</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/author/science-studies">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Science Studies</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/knn">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>KNN</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/machine-learning">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Machine Learning</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/author/chukwuka-victor-obionwu">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Chukwuka Victor Obionwu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/dataset/available-data">
+    <rdf:type rdf:resource="https://example.org/papergraph/Dataset"/>
+    <rdfs:label>available data</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/model/big-five-personality-model">
+    <rdf:type rdf:resource="https://example.org/papergraph/Model"/>
+    <rdfs:label>Big Five personality model</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/dataset/labeled-dataset">
+    <rdf:type rdf:resource="https://example.org/papergraph/Dataset"/>
+    <rdfs:label>labeled dataset</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/model/utility-based-recommender">
+    <rdf:type rdf:resource="https://example.org/papergraph/Model"/>
+    <rdfs:label>Utility-Based Recommender</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/team-formation-algorithm">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Team Formation Algorithm</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/dataset/questionnaire-responses">
+    <rdf:type rdf:resource="https://example.org/papergraph/Dataset"/>
+    <rdfs:label>questionnaire responses</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/model/collaborative-filtering-recommender">
+    <rdf:type rdf:resource="https://example.org/papergraph/Model"/>
+    <rdfs:label>Collaborative filtering Recommender</rdfs:label>
+    <rdfs:label>Collaborative Filtering Recommender</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/content-based-filtering">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Content-Based Filtering</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/content-based-filtering">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Content-Based Filtering</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/ontology">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Ontology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/author/damanpreet-singh-walia">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Damanpreet Singh Walia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/dataset/and-data">
+    <rdf:type rdf:resource="https://example.org/papergraph/Dataset"/>
+    <rdfs:label>and Data</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/ontology">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Ontology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/utility-based-recommendation">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Utility-Based Recommendation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/author/lower-saxony">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Lower Saxony</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/machine-learning">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Machine Learning</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/author/david-broneske">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>David Broneske</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/cosine-similarity">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Cosine Similarity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/collaboration">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Collaboration</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/dataset/labeled-data">
+    <rdf:type rdf:resource="https://example.org/papergraph/Dataset"/>
+    <rdfs:label>labeled data</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/collaborative-filtering">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Collaborative Filtering</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/dataset/academic-scores">
+    <rdf:type rdf:resource="https://example.org/papergraph/Dataset"/>
+    <rdfs:label>academic scores</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/questionnaire">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Questionnaire</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/collaborative-filtering">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Collaborative Filtering</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/classification">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Classification</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/topic/recommendation-systems">
+    <rdf:type rdf:resource="https://example.org/papergraph/Topic"/>
+    <rdfs:label>Recommendation Systems</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/author/gunter-saake">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Gunter Saake</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/cosine-similarity">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Cosine Similarity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/method/utility-based-recommendation">
+    <rdf:type rdf:resource="https://example.org/papergraph/Method"/>
+    <rdfs:label>Utility-Based Recommendation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/papergraph/dataset/student-personality-profiles">
+    <rdf:type rdf:resource="https://example.org/papergraph/Dataset"/>
+    <rdfs:label>Student Personality Profiles</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

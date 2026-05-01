@@ -1,0 +1,750 @@
+{
+  "paper_id": "08a668da",
+  "filename": "project partner.pdf",
+  "extractor": "hybrid",
+  "entities": {
+    "title": "Fakult¨at f¨ur Informatik Otto von Guericke Universit¨at",
+    "authors": [
+      "Chukwuka Victor Obionwu",
+      "Damanpreet Singh Walia",
+      "Taruna Tiwari",
+      "Tathagatha Ghosh",
+      "David Broneske",
+      "Science Studies",
+      "Lower Saxony",
+      "Gunter Saake"
+    ],
+    "methods": [
+      "Classification",
+      "Collaborative Filtering",
+      "Content-Based Filtering",
+      "Cosine Similarity",
+      "KNN",
+      "Machine Learning",
+      "Ontology",
+      "Questionnaire",
+      "Team Formation Algorithm",
+      "Utility-Based Recommendation"
+    ],
+    "datasets": [
+      "academic scores",
+      "and Data",
+      "available data",
+      "labeled data",
+      "labeled dataset",
+      "questionnaire responses",
+      "Student Personality Profiles"
+    ],
+    "models": [
+      "Big Five personality model",
+      "Collaborative filtering Recommender",
+      "Collaborative Filtering Recommender",
+      "knn",
+      "KNN",
+      "Utility-Based Recommender"
+    ],
+    "keywords": [
+      "Big Five",
+      "Collaboration",
+      "Recommendation Systems"
+    ],
+    "topics": [
+      "Big Five",
+      "Collaboration",
+      "Recommendation Systems",
+      "Classification",
+      "Collaborative Filtering",
+      "Content-Based Filtering",
+      "Cosine Similarity",
+      "KNN",
+      "Machine Learning",
+      "Ontology",
+      "Questionnaire",
+      "Team Formation Algorithm",
+      "Utility-Based Recommendation"
+    ],
+    "abstract": "Project Partner preferences, and the breakdown of team projects has been a challenge both in industry, and university settings. While the consequence is severe in industrial settings, the loss of time, and invested effort in scenarios where university course project breaks down leads to distrust among members and eventual failure in some cases. Thus, it becomes necessary, the acquisition of Colaboratory skills which according to literature is acquired via collaboration with partners whose behaviors cancel out each other’s eccentricities. To this end, industry stakeholders have invested enormous resources on the development of user predictive models that optimally predict the outcome of a collaborative engagement. While this strategy is effective, government policies restrict its implementation in institutions of higher learning, thus making collaboration modelling challenging. Ergo, the objective of this endeavor investigation of noninvasive strategies for eliciting individual preferences that affect collaboration and the development of study recommendation partner system. Consequent on the literature review, we have employed a big five-oriented questionnaire input which is passed through a personality based similarity system based on collaborative filtering and utility-based recommendation system. Findings show that generated teams are academically balance which is the main objective of the study recommendation partner system."
+  },
+  "triples": [
+    {
+      "subject": "https://example.org/papergraph/author/chukwuka-victor-obionwu",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/chukwuka-victor-obionwu",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Chukwuka Victor Obionwu"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/damanpreet-singh-walia",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/damanpreet-singh-walia",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Damanpreet Singh Walia"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/david-broneske",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/david-broneske",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "David Broneske"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/gunter-saake",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/gunter-saake",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Gunter Saake"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/lower-saxony",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/lower-saxony",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Lower Saxony"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/science-studies",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/science-studies",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Science Studies"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/taruna-tiwari",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/taruna-tiwari",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Taruna Tiwari"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/tathagatha-ghosh",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/tathagatha-ghosh",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Tathagatha Ghosh"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/academic-scores",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/academic-scores",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "academic scores"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/and-data",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/and-data",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "and Data"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/available-data",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/available-data",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "available data"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/labeled-data",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/labeled-data",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "labeled data"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/labeled-dataset",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/labeled-dataset",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "labeled dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/questionnaire-responses",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/questionnaire-responses",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "questionnaire responses"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/student-personality-profiles",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/student-personality-profiles",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Student Personality Profiles"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/classification",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/classification",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Classification"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/collaborative-filtering",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/collaborative-filtering",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Collaborative Filtering"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/content-based-filtering",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/content-based-filtering",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Content-Based Filtering"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/cosine-similarity",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/cosine-similarity",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Cosine Similarity"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/knn",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/knn",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "KNN"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/machine-learning",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/machine-learning",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Machine Learning"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/ontology",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/ontology",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Ontology"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/questionnaire",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/questionnaire",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Questionnaire"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/team-formation-algorithm",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/team-formation-algorithm",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Team Formation Algorithm"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/utility-based-recommendation",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/utility-based-recommendation",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Utility-Based Recommendation"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/big-five-personality-model",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Model"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/big-five-personality-model",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Big Five personality model"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/collaborative-filtering-recommender",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Model"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/collaborative-filtering-recommender",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Collaborative Filtering Recommender"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/collaborative-filtering-recommender",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Collaborative filtering Recommender"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/knn",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Model"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/knn",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "KNN"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/knn",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "knn"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/utility-based-recommender",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Model"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/utility-based-recommender",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Utility-Based Recommender"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "http://purl.org/dc/terms/abstract",
+      "object": "Project Partner preferences, and the breakdown of team projects has been a challenge both in industry, and university settings. While the consequence is severe in industrial settings, the loss of time, and invested effort in scenarios where university course project breaks down leads to distrust among members and eventual failure in some cases. Thus, it becomes necessary, the acquisition of Colaboratory skills which according to literature is acquired via collaboration with partners whose behaviors cancel out each other’s eccentricities. To this end, industry stakeholders have invested enormous resources on the development of user predictive models that optimally predict the outcome of a collaborative engagement. While this strategy is effective, government policies restrict its implementation in institutions of higher learning, thus making collaboration modelling challenging. Ergo, the objective of this endeavor investigation of noninvasive strategies for eliciting individual preferences that affect collaboration and the development of study recommendation partner system. Consequent on the literature review, we have employed a big five-oriented questionnaire input which is passed through a personality based similarity system based on collaborative filtering and utility-based recommendation system. Findings show that generated teams are academically balance which is the main objective of the study recommendation partner system."
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/chukwuka-victor-obionwu"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/damanpreet-singh-walia"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/david-broneske"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/gunter-saake"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/lower-saxony"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/science-studies"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/taruna-tiwari"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/tathagatha-ghosh"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "http://purl.org/dc/terms/identifier",
+      "object": "08a668da"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "http://purl.org/dc/terms/title",
+      "object": "Fakult¨at f¨ur Informatik Otto von Guericke Universit¨at"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://schema.org/ScholarlyArticle"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/big-five"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/classification"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/collaboration"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/collaborative-filtering"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/content-based-filtering"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/cosine-similarity"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/knn"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/machine-learning"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/ontology"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/questionnaire"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/recommendation-systems"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/team-formation-algorithm"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/utility-based-recommendation"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/academic-scores"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/and-data"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/available-data"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/labeled-data"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/labeled-dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/questionnaire-responses"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/student-personality-profiles"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/classification"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/collaborative-filtering"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/content-based-filtering"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/cosine-similarity"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/knn"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/machine-learning"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/ontology"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/questionnaire"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/team-formation-algorithm"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/utility-based-recommendation"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/usesModel",
+      "object": "https://example.org/papergraph/model/big-five-personality-model"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/usesModel",
+      "object": "https://example.org/papergraph/model/collaborative-filtering-recommender"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/usesModel",
+      "object": "https://example.org/papergraph/model/knn"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://example.org/papergraph/usesModel",
+      "object": "https://example.org/papergraph/model/utility-based-recommender"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://schema.org/keywords",
+      "object": "Big Five"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://schema.org/keywords",
+      "object": "Collaboration"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/08a668da",
+      "predicate": "https://schema.org/keywords",
+      "object": "Recommendation Systems"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/big-five",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/big-five",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Big Five"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/classification",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/classification",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Classification"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/collaboration",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/collaboration",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Collaboration"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/collaborative-filtering",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/collaborative-filtering",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Collaborative Filtering"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/content-based-filtering",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/content-based-filtering",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Content-Based Filtering"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/cosine-similarity",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/cosine-similarity",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Cosine Similarity"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/knn",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/knn",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "KNN"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/machine-learning",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/machine-learning",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Machine Learning"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/ontology",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/ontology",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Ontology"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/questionnaire",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/questionnaire",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Questionnaire"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/recommendation-systems",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/recommendation-systems",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Recommendation Systems"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/team-formation-algorithm",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/team-formation-algorithm",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Team Formation Algorithm"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/utility-based-recommendation",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/utility-based-recommendation",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Utility-Based Recommendation"
+    }
+  ],
+  "export_urls": {
+    "ttl": "/api/papers/08a668da/export?format=ttl",
+    "rdf": "/api/papers/08a668da/export?format=rdf",
+    "jsonld": "/api/papers/08a668da/export?format=jsonld"
+  }
+}

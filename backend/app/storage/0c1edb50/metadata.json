@@ -1,0 +1,1108 @@
+{
+  "paper_id": "0c1edb50",
+  "filename": "1706.03762v7.pdf",
+  "extractor": "hybrid",
+  "entities": {
+    "title": "Attention Is All You Need",
+    "authors": [
+      "Ashish Vaswani",
+      "Noam Shazeer",
+      "Niki Parmar",
+      "Jakob Uszkoreit",
+      "Llion Jones",
+      "Aidan N. Gomez",
+      "Łukasz Kaiser",
+      "Illia Polosukhin"
+    ],
+    "methods": [
+      "Attention Mechanism",
+      "Deep Learning",
+      "Encoder-Decoder",
+      "Feed-Forward Network",
+      "Gated Recurrent",
+      "Long Short-Term Memory",
+      "LSTM",
+      "Multi-Head Attention",
+      "Natural Language Processing",
+      "Positional Encoding",
+      "Recurrent Neural Network",
+      "RNN",
+      "Scaled Dot-Product Attention",
+      "Self-Attention",
+      "Transformer"
+    ],
+    "datasets": [
+      "annotated corpus",
+      "English-French dataset",
+      "English-German dataset",
+      "Penn Treebank",
+      "training data",
+      "Wall Street Journal",
+      "WMT 2014 English-French",
+      "WMT 2014 English-German",
+      "WMT 2014 English-to-French",
+      "WMT 2014 English-to-German",
+      "WSJ"
+    ],
+    "models": [
+      "ByteNet",
+      "ConvS2S",
+      "GNMT",
+      "LSTM",
+      "multi-head attention",
+      "Multi-head attention",
+      "Multi-Head Attention",
+      "RNN",
+      "rnn",
+      "Scaled Dot-Product Attention",
+      "scaled dot-product attention",
+      "self-attention",
+      "Self-attention",
+      "Self-Attention",
+      "Transformer",
+      "transformer"
+    ],
+    "keywords": [
+      "Transformer",
+      "Attention Mechanism",
+      "translation",
+      "bleu",
+      "training",
+      "encoder",
+      "decoder",
+      "attention",
+      "tasks",
+      "english",
+      "task",
+      "dominant",
+      "sequence",
+      "transduction",
+      "complex"
+    ],
+    "topics": [
+      "Transformer",
+      "Attention Mechanism",
+      "Translation",
+      "Bleu",
+      "Training",
+      "Encoder",
+      "Decoder",
+      "Attention",
+      "Deep Learning",
+      "Encoder-Decoder",
+      "Feed-Forward Network",
+      "Gated Recurrent",
+      "Long Short-Term Memory",
+      "LSTM",
+      "Multi-Head Attention"
+    ],
+    "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English- to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data. ∗"
+  },
+  "triples": [
+    {
+      "subject": "https://example.org/papergraph/author/aidan-n-gomez",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/aidan-n-gomez",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Aidan N. Gomez"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/ashish-vaswani",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/ashish-vaswani",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Ashish Vaswani"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/illia-polosukhin",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/illia-polosukhin",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Illia Polosukhin"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/jakob-uszkoreit",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/jakob-uszkoreit",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Jakob Uszkoreit"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/llion-jones",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/llion-jones",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Llion Jones"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/niki-parmar",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/niki-parmar",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Niki Parmar"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/noam-shazeer",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/noam-shazeer",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Noam Shazeer"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/ukasz-kaiser",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/ukasz-kaiser",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Łukasz Kaiser"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/annotated-corpus",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/annotated-corpus",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "annotated corpus"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/english-french-dataset",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/english-french-dataset",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "English-French dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/english-german-dataset",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/english-german-dataset",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "English-German dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/penn-treebank",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/penn-treebank",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Penn Treebank"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/training-data",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/training-data",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "training data"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/wall-street-journal",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/wall-street-journal",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Wall Street Journal"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/wmt-2014-english-french",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/wmt-2014-english-french",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "WMT 2014 English-French"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/wmt-2014-english-german",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/wmt-2014-english-german",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "WMT 2014 English-German"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/wmt-2014-english-to-french",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/wmt-2014-english-to-french",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "WMT 2014 English-to-French"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/wmt-2014-english-to-german",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/wmt-2014-english-to-german",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "WMT 2014 English-to-German"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/wsj",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/wsj",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "WSJ"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/attention-mechanism",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/attention-mechanism",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Attention Mechanism"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/deep-learning",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/deep-learning",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Deep Learning"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/encoder-decoder",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/encoder-decoder",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Encoder-Decoder"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/feed-forward-network",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/feed-forward-network",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Feed-Forward Network"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/gated-recurrent",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/gated-recurrent",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Gated Recurrent"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/long-short-term-memory",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/long-short-term-memory",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Long Short-Term Memory"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/lstm",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/lstm",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "LSTM"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/multi-head-attention",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/multi-head-attention",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Multi-Head Attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/natural-language-processing",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/natural-language-processing",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Natural Language Processing"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/positional-encoding",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/positional-encoding",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Positional Encoding"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/recurrent-neural-network",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/recurrent-neural-network",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Recurrent Neural Network"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/rnn",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/rnn",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "RNN"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/scaled-dot-product-attention",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/scaled-dot-product-attention",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Scaled Dot-Product Attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/self-attention",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/self-attention",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Self-Attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/transformer",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/transformer",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Transformer"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/bytenet",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Model"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/bytenet",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "ByteNet"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/convs2s",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Model"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/convs2s",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "ConvS2S"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/gnmt",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Model"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/gnmt",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "GNMT"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/lstm",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Model"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/lstm",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "LSTM"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/multi-head-attention",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Model"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/multi-head-attention",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Multi-Head Attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/multi-head-attention",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Multi-head attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/multi-head-attention",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "multi-head attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/rnn",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Model"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/rnn",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "RNN"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/rnn",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "rnn"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/scaled-dot-product-attention",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Model"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/scaled-dot-product-attention",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Scaled Dot-Product Attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/scaled-dot-product-attention",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "scaled dot-product attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/self-attention",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Model"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/self-attention",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Self-Attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/self-attention",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Self-attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/self-attention",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "self-attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/transformer",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Model"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/transformer",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Transformer"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/transformer",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "transformer"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "http://purl.org/dc/terms/abstract",
+      "object": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English- to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data. ∗"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/aidan-n-gomez"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/ashish-vaswani"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/illia-polosukhin"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/jakob-uszkoreit"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/llion-jones"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/niki-parmar"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/noam-shazeer"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/ukasz-kaiser"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "http://purl.org/dc/terms/identifier",
+      "object": "0c1edb50"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "http://purl.org/dc/terms/title",
+      "object": "Attention Is All You Need"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://schema.org/ScholarlyArticle"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/attention-mechanism"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/bleu"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/decoder"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/deep-learning"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/encoder"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/encoder-decoder"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/feed-forward-network"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/gated-recurrent"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/long-short-term-memory"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/lstm"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/multi-head-attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/training"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/transformer"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/translation"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/annotated-corpus"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/english-french-dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/english-german-dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/penn-treebank"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/training-data"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/wall-street-journal"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/wmt-2014-english-french"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/wmt-2014-english-german"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/wmt-2014-english-to-french"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/wmt-2014-english-to-german"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/wsj"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/attention-mechanism"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/deep-learning"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/encoder-decoder"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/feed-forward-network"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/gated-recurrent"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/long-short-term-memory"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/lstm"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/multi-head-attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/natural-language-processing"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/positional-encoding"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/recurrent-neural-network"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/rnn"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/scaled-dot-product-attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/self-attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/transformer"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesModel",
+      "object": "https://example.org/papergraph/model/bytenet"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesModel",
+      "object": "https://example.org/papergraph/model/convs2s"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesModel",
+      "object": "https://example.org/papergraph/model/gnmt"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesModel",
+      "object": "https://example.org/papergraph/model/lstm"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesModel",
+      "object": "https://example.org/papergraph/model/multi-head-attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesModel",
+      "object": "https://example.org/papergraph/model/rnn"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesModel",
+      "object": "https://example.org/papergraph/model/scaled-dot-product-attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesModel",
+      "object": "https://example.org/papergraph/model/self-attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://example.org/papergraph/usesModel",
+      "object": "https://example.org/papergraph/model/transformer"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://schema.org/keywords",
+      "object": "Attention Mechanism"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://schema.org/keywords",
+      "object": "Transformer"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://schema.org/keywords",
+      "object": "attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://schema.org/keywords",
+      "object": "bleu"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://schema.org/keywords",
+      "object": "complex"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://schema.org/keywords",
+      "object": "decoder"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://schema.org/keywords",
+      "object": "dominant"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://schema.org/keywords",
+      "object": "encoder"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://schema.org/keywords",
+      "object": "english"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://schema.org/keywords",
+      "object": "sequence"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://schema.org/keywords",
+      "object": "task"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://schema.org/keywords",
+      "object": "tasks"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://schema.org/keywords",
+      "object": "training"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://schema.org/keywords",
+      "object": "transduction"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/0c1edb50",
+      "predicate": "https://schema.org/keywords",
+      "object": "translation"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/attention",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/attention",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/attention-mechanism",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/attention-mechanism",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Attention Mechanism"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/bleu",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/bleu",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Bleu"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/decoder",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/decoder",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Decoder"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/deep-learning",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/deep-learning",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Deep Learning"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/encoder",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/encoder",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Encoder"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/encoder-decoder",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/encoder-decoder",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Encoder-Decoder"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/feed-forward-network",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/feed-forward-network",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Feed-Forward Network"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/gated-recurrent",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/gated-recurrent",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Gated Recurrent"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/long-short-term-memory",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/long-short-term-memory",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Long Short-Term Memory"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/lstm",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/lstm",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "LSTM"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/multi-head-attention",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/multi-head-attention",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Multi-Head Attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/training",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/training",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Training"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/transformer",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/transformer",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Transformer"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/translation",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/translation",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Translation"
+    }
+  ],
+  "export_urls": {
+    "ttl": "/api/papers/0c1edb50/export?format=ttl",
+    "rdf": "/api/papers/0c1edb50/export?format=rdf",
+    "jsonld": "/api/papers/0c1edb50/export?format=jsonld"
+  }
+}

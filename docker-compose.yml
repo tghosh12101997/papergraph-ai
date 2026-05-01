@@ -1,0 +1,26 @@
+services:
+  backend:
+    build: ./backend
+    container_name: papergraph_backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./backend/app/storage:/app/app/storage
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  fuseki:
+    image: stain/jena-fuseki:latest
+    container_name: papergraph_fuseki
+    ports:
+      - "3030:3030"
+    environment:
+      - ADMIN_PASSWORD=admin
+      - FUSEKI_DATASET_1=papergraph
+    volumes:
+      - fuseki-data:/fuseki
+
+volumes:
+  fuseki-data:

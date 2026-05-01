@@ -1,0 +1,438 @@
+[
+  {
+    "@id": "https://example.org/papergraph/method/deep-learning",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Deep Learning"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/english-german",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "English-German"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/best",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Best"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/recurrent-neural-network",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Recurrent Neural Network"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/recurrent-neural-network",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Recurrent Neural Network"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/english-german-dataset",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "English-German dataset"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/while",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "While"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/translation",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Translation"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/english-french",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "English-French"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/transformer",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Transformer"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/work",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Work"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/rnn",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Rnn"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/transformer",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Transformer"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/annotated",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "annotated"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/noam-shazeer",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Noam Shazeer"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/model/rnn",
+    "@type": [
+      "https://example.org/papergraph/Model"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "rnn"
+      },
+      {
+        "@value": "RNN"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/attention",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Attention"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/english-french-dataset",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "English-French dataset"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/natural-language-processing",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Natural Language Processing"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/google-brain",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Google Brain"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/training",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Training"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/bleu",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Bleu"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/deep-learning",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Deep Learning"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/rnn",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "RNN"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/natural-language-processing",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Natural Language Processing"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/paper/1194ca51",
+    "@type": [
+      "https://schema.org/ScholarlyArticle"
+    ],
+    "http://purl.org/dc/terms/abstract": [
+      {
+        "@value": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English- to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data. ∗Equal contribution. Listing order is random. Jakob proposed replacing RNNs with self-attention and started the effort to evaluate this idea. Ashish, with Illia, designed and implemented the first Transformer models and has been crucially involved in every aspect of this work. Noam proposed scaled dot-product attention, multi-head attention and the parameter-free position representation and became the other person involved in nearly every detail. Niki designed, implemented, tuned and evaluated countless model variants in our original codebase and tensor2tensor. Llion also experimented with novel model variants, was responsible for our initial codebase, and efficient inference and visualizations. Lukasz and Aidan spent countless long days designing various parts of and implementing tensor2tensor, replacing our earlier codebase, greatly improving results and massively accelerating our research. †Work performed while at Google Brain. ‡Work performed while at Google Research. 31st Conference on Neural Information Processing Systems (NIPS 2017), Long Beach, CA, USA. arXiv:1706.03762v7 [cs.CL] 2 Aug 2023"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "https://example.org/papergraph/author/attention-is-all-you-need-ashish-vaswani"
+      },
+      {
+        "@id": "https://example.org/papergraph/author/google-brain"
+      },
+      {
+        "@id": "https://example.org/papergraph/author/noam-shazeer"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "1194ca51"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Provided proper attribution is provided, Google hereby grants permission to"
+      }
+    ],
+    "https://example.org/papergraph/studiesTopic": [
+      {
+        "@id": "https://example.org/papergraph/topic/attention"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/best"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/bleu"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/deep-learning"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/natural-language-processing"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/recurrent-neural-network"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/rnn"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/training"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/transformer"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/translation"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/while"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/work"
+      }
+    ],
+    "https://example.org/papergraph/usesDataset": [
+      {
+        "@id": "https://example.org/papergraph/dataset/annotated"
+      },
+      {
+        "@id": "https://example.org/papergraph/dataset/english-french"
+      },
+      {
+        "@id": "https://example.org/papergraph/dataset/english-french-dataset"
+      },
+      {
+        "@id": "https://example.org/papergraph/dataset/english-german"
+      },
+      {
+        "@id": "https://example.org/papergraph/dataset/english-german-dataset"
+      }
+    ],
+    "https://example.org/papergraph/usesMethod": [
+      {
+        "@id": "https://example.org/papergraph/method/deep-learning"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/natural-language-processing"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/rnn"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/recurrent-neural-network"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/transformer"
+      }
+    ],
+    "https://example.org/papergraph/usesModel": [
+      {
+        "@id": "https://example.org/papergraph/model/rnn"
+      }
+    ],
+    "https://schema.org/keywords": [
+      {
+        "@value": "attention"
+      },
+      {
+        "@value": "best"
+      },
+      {
+        "@value": "transformer"
+      },
+      {
+        "@value": "translation"
+      },
+      {
+        "@value": "while"
+      },
+      {
+        "@value": "bleu"
+      },
+      {
+        "@value": "training"
+      },
+      {
+        "@value": "work"
+      },
+      {
+        "@value": "codebase"
+      },
+      {
+        "@value": "neural"
+      },
+      {
+        "@value": "encoder"
+      },
+      {
+        "@value": "decoder"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/attention-is-all-you-need-ashish-vaswani",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Attention Is All You Need Ashish Vaswani"
+      }
+    ]
+  }
+]

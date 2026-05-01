@@ -1,0 +1,330 @@
+[
+  {
+    "@id": "https://example.org/papergraph/topic/classification",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Classification"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/ontology",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Ontology"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/labeled-dataset",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "labeled dataset"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/paper/f8421c18",
+    "@type": [
+      "https://schema.org/ScholarlyArticle"
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "https://example.org/papergraph/author/damanpreet-singh-walia-fakult"
+      },
+      {
+        "@id": "https://example.org/papergraph/author/guericke-universit"
+      },
+      {
+        "@id": "https://example.org/papergraph/author/informatik-otto"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "f8421c18"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Chukwuka Victor Obionwu"
+      }
+    ],
+    "https://example.org/papergraph/studiesTopic": [
+      {
+        "@id": "https://example.org/papergraph/topic/classification"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/fakult"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/germany"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/individual"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/informatik"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/machine-learning"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/magdeburg"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/ontology"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/otto"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/personality"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/recommendation"
+      }
+    ],
+    "https://example.org/papergraph/usesDataset": [
+      {
+        "@id": "https://example.org/papergraph/dataset/labeled"
+      },
+      {
+        "@id": "https://example.org/papergraph/dataset/labeled-dataset"
+      }
+    ],
+    "https://example.org/papergraph/usesMethod": [
+      {
+        "@id": "https://example.org/papergraph/method/classification"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/machine-learning"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/ontology"
+      }
+    ],
+    "https://schema.org/keywords": [
+      {
+        "@value": "recommendation"
+      },
+      {
+        "@value": "individual"
+      },
+      {
+        "@value": "fakult"
+      },
+      {
+        "@value": "informatik"
+      },
+      {
+        "@value": "magdeburg"
+      },
+      {
+        "@value": "germany"
+      },
+      {
+        "@value": "personality"
+      },
+      {
+        "@value": "otto"
+      },
+      {
+        "@value": "guericke"
+      },
+      {
+        "@value": "universit"
+      },
+      {
+        "@value": "project"
+      },
+      {
+        "@value": "course"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/classification",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Classification"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/damanpreet-singh-walia-fakult",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Damanpreet Singh Walia Fakult"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/individual",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Individual"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/otto",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Otto"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/germany",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Germany"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/ontology",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Ontology"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/informatik-otto",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Informatik Otto"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/recommendation",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Recommendation"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/guericke-universit",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Guericke Universit"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/labeled",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "labeled"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/informatik",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Informatik"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/personality",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Personality"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/fakult",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Fakult"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/machine-learning",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Machine Learning"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/magdeburg",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Magdeburg"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/machine-learning",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Machine Learning"
+      }
+    ]
+  }
+]

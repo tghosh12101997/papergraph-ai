@@ -1,0 +1,418 @@
+{
+  "paper_id": "f8421c18",
+  "filename": "project partner.pdf",
+  "extractor": "llm",
+  "entities": {
+    "title": "Chukwuka Victor Obionwu",
+    "authors": [
+      "Damanpreet Singh Walia Fakult",
+      "Guericke Universit",
+      "Informatik Otto"
+    ],
+    "methods": [
+      "Classification",
+      "Machine Learning",
+      "Ontology"
+    ],
+    "datasets": [
+      "labeled",
+      "labeled dataset"
+    ],
+    "models": [],
+    "keywords": [
+      "recommendation",
+      "individual",
+      "fakult",
+      "informatik",
+      "magdeburg",
+      "germany",
+      "personality",
+      "otto",
+      "guericke",
+      "universit",
+      "project",
+      "course"
+    ],
+    "topics": [
+      "Classification",
+      "Fakult",
+      "Germany",
+      "Individual",
+      "Informatik",
+      "Machine Learning",
+      "Magdeburg",
+      "Ontology",
+      "Otto",
+      "Personality",
+      "Recommendation"
+    ],
+    "abstract": null
+  },
+  "triples": [
+    {
+      "subject": "https://example.org/papergraph/author/damanpreet-singh-walia-fakult",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/damanpreet-singh-walia-fakult",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Damanpreet Singh Walia Fakult"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/guericke-universit",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/guericke-universit",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Guericke Universit"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/informatik-otto",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/informatik-otto",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Informatik Otto"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/labeled",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/labeled",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "labeled"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/labeled-dataset",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/labeled-dataset",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "labeled dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/classification",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/classification",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Classification"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/machine-learning",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/machine-learning",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Machine Learning"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/ontology",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/ontology",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Ontology"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/damanpreet-singh-walia-fakult"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/guericke-universit"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/informatik-otto"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "http://purl.org/dc/terms/identifier",
+      "object": "f8421c18"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "http://purl.org/dc/terms/title",
+      "object": "Chukwuka Victor Obionwu"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://schema.org/ScholarlyArticle"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/classification"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/fakult"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/germany"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/individual"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/informatik"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/machine-learning"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/magdeburg"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/ontology"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/otto"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/personality"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/recommendation"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/labeled"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/labeled-dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/classification"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/machine-learning"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/ontology"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://schema.org/keywords",
+      "object": "course"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://schema.org/keywords",
+      "object": "fakult"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://schema.org/keywords",
+      "object": "germany"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://schema.org/keywords",
+      "object": "guericke"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://schema.org/keywords",
+      "object": "individual"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://schema.org/keywords",
+      "object": "informatik"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://schema.org/keywords",
+      "object": "magdeburg"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://schema.org/keywords",
+      "object": "otto"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://schema.org/keywords",
+      "object": "personality"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://schema.org/keywords",
+      "object": "project"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://schema.org/keywords",
+      "object": "recommendation"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/f8421c18",
+      "predicate": "https://schema.org/keywords",
+      "object": "universit"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/classification",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/classification",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Classification"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/fakult",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/fakult",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Fakult"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/germany",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/germany",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Germany"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/individual",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/individual",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Individual"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/informatik",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/informatik",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Informatik"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/machine-learning",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/machine-learning",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Machine Learning"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/magdeburg",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/magdeburg",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Magdeburg"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/ontology",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/ontology",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Ontology"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/otto",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/otto",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Otto"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/personality",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/personality",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Personality"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/recommendation",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/recommendation",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Recommendation"
+    }
+  ],
+  "export_urls": {
+    "ttl": "/api/papers/f8421c18/export?format=ttl",
+    "rdf": "/api/papers/f8421c18/export?format=rdf",
+    "jsonld": "/api/papers/f8421c18/export?format=jsonld"
+  }
+}

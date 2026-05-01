@@ -1,0 +1,41 @@
+@prefix pg: <https://example.org/papergraph/> .
+@prefix schema: <https://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+pg:PaperGraphOntology a owl:Ontology ;
+    rdfs:label "PaperGraph AI Ontology" .
+
+pg:Method a owl:Class ;
+    rdfs:label "Method" .
+
+pg:Dataset a owl:Class ;
+    rdfs:label "Dataset" .
+
+pg:Model a owl:Class ;
+    rdfs:label "Model" .
+
+pg:Topic a owl:Class ;
+    rdfs:label "Topic" .
+
+pg:usesMethod a owl:ObjectProperty ;
+    rdfs:domain schema:ScholarlyArticle ;
+    rdfs:range pg:Method ;
+    rdfs:label "uses method" .
+
+pg:usesDataset a owl:ObjectProperty ;
+    rdfs:domain schema:ScholarlyArticle ;
+    rdfs:range pg:Dataset ;
+    rdfs:label "uses dataset" .
+
+pg:usesModel a owl:ObjectProperty ;
+    rdfs:domain schema:ScholarlyArticle ;
+    rdfs:range pg:Model ;
+    rdfs:label "uses model" .
+
+pg:studiesTopic a owl:ObjectProperty ;
+    rdfs:domain schema:ScholarlyArticle ;
+    rdfs:range pg:Topic ;
+    rdfs:label "studies topic" .

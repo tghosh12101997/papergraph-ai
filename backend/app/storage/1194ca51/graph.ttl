@@ -1,0 +1,128 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix pg: <https://example.org/papergraph/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://example.org/papergraph/paper/1194ca51> a schema:ScholarlyArticle ;
+    dcterms:abstract "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English- to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data. ∗Equal contribution. Listing order is random. Jakob proposed replacing RNNs with self-attention and started the effort to evaluate this idea. Ashish, with Illia, designed and implemented the first Transformer models and has been crucially involved in every aspect of this work. Noam proposed scaled dot-product attention, multi-head attention and the parameter-free position representation and became the other person involved in nearly every detail. Niki designed, implemented, tuned and evaluated countless model variants in our original codebase and tensor2tensor. Llion also experimented with novel model variants, was responsible for our initial codebase, and efficient inference and visualizations. Lukasz and Aidan spent countless long days designing various parts of and implementing tensor2tensor, replacing our earlier codebase, greatly improving results and massively accelerating our research. †Work performed while at Google Brain. ‡Work performed while at Google Research. 31st Conference on Neural Information Processing Systems (NIPS 2017), Long Beach, CA, USA. arXiv:1706.03762v7 [cs.CL] 2 Aug 2023" ;
+    dcterms:creator <https://example.org/papergraph/author/attention-is-all-you-need-ashish-vaswani>,
+        <https://example.org/papergraph/author/google-brain>,
+        <https://example.org/papergraph/author/noam-shazeer> ;
+    dcterms:identifier "1194ca51" ;
+    dcterms:title "Provided proper attribution is provided, Google hereby grants permission to" ;
+    pg:studiesTopic <https://example.org/papergraph/topic/attention>,
+        <https://example.org/papergraph/topic/best>,
+        <https://example.org/papergraph/topic/bleu>,
+        <https://example.org/papergraph/topic/deep-learning>,
+        <https://example.org/papergraph/topic/natural-language-processing>,
+        <https://example.org/papergraph/topic/recurrent-neural-network>,
+        <https://example.org/papergraph/topic/rnn>,
+        <https://example.org/papergraph/topic/training>,
+        <https://example.org/papergraph/topic/transformer>,
+        <https://example.org/papergraph/topic/translation>,
+        <https://example.org/papergraph/topic/while>,
+        <https://example.org/papergraph/topic/work> ;
+    pg:usesDataset <https://example.org/papergraph/dataset/annotated>,
+        <https://example.org/papergraph/dataset/english-french>,
+        <https://example.org/papergraph/dataset/english-french-dataset>,
+        <https://example.org/papergraph/dataset/english-german>,
+        <https://example.org/papergraph/dataset/english-german-dataset> ;
+    pg:usesMethod <https://example.org/papergraph/method/deep-learning>,
+        <https://example.org/papergraph/method/natural-language-processing>,
+        <https://example.org/papergraph/method/recurrent-neural-network>,
+        <https://example.org/papergraph/method/rnn>,
+        <https://example.org/papergraph/method/transformer> ;
+    pg:usesModel <https://example.org/papergraph/model/rnn> ;
+    schema:keywords "attention",
+        "best",
+        "bleu",
+        "codebase",
+        "decoder",
+        "encoder",
+        "neural",
+        "training",
+        "transformer",
+        "translation",
+        "while",
+        "work" .
+
+<https://example.org/papergraph/author/attention-is-all-you-need-ashish-vaswani> a foaf:Person ;
+    rdfs:label "Attention Is All You Need Ashish Vaswani" .
+
+<https://example.org/papergraph/author/google-brain> a foaf:Person ;
+    rdfs:label "Google Brain" .
+
+<https://example.org/papergraph/author/noam-shazeer> a foaf:Person ;
+    rdfs:label "Noam Shazeer" .
+
+<https://example.org/papergraph/dataset/annotated> a pg:Dataset ;
+    rdfs:label "annotated" .
+
+<https://example.org/papergraph/dataset/english-french> a pg:Dataset ;
+    rdfs:label "English-French" .
+
+<https://example.org/papergraph/dataset/english-french-dataset> a pg:Dataset ;
+    rdfs:label "English-French dataset" .
+
+<https://example.org/papergraph/dataset/english-german> a pg:Dataset ;
+    rdfs:label "English-German" .
+
+<https://example.org/papergraph/dataset/english-german-dataset> a pg:Dataset ;
+    rdfs:label "English-German dataset" .
+
+<https://example.org/papergraph/method/deep-learning> a pg:Method ;
+    rdfs:label "Deep Learning" .
+
+<https://example.org/papergraph/method/natural-language-processing> a pg:Method ;
+    rdfs:label "Natural Language Processing" .
+
+<https://example.org/papergraph/method/recurrent-neural-network> a pg:Method ;
+    rdfs:label "Recurrent Neural Network" .
+
+<https://example.org/papergraph/method/rnn> a pg:Method ;
+    rdfs:label "RNN" .
+
+<https://example.org/papergraph/method/transformer> a pg:Method ;
+    rdfs:label "Transformer" .
+
+<https://example.org/papergraph/model/rnn> a pg:Model ;
+    rdfs:label "RNN",
+        "rnn" .
+
+<https://example.org/papergraph/topic/attention> a pg:Topic ;
+    rdfs:label "Attention" .
+
+<https://example.org/papergraph/topic/best> a pg:Topic ;
+    rdfs:label "Best" .
+
+<https://example.org/papergraph/topic/bleu> a pg:Topic ;
+    rdfs:label "Bleu" .
+
+<https://example.org/papergraph/topic/deep-learning> a pg:Topic ;
+    rdfs:label "Deep Learning" .
+
+<https://example.org/papergraph/topic/natural-language-processing> a pg:Topic ;
+    rdfs:label "Natural Language Processing" .
+
+<https://example.org/papergraph/topic/recurrent-neural-network> a pg:Topic ;
+    rdfs:label "Recurrent Neural Network" .
+
+<https://example.org/papergraph/topic/rnn> a pg:Topic ;
+    rdfs:label "Rnn" .
+
+<https://example.org/papergraph/topic/training> a pg:Topic ;
+    rdfs:label "Training" .
+
+<https://example.org/papergraph/topic/transformer> a pg:Topic ;
+    rdfs:label "Transformer" .
+
+<https://example.org/papergraph/topic/translation> a pg:Topic ;
+    rdfs:label "Translation" .
+
+<https://example.org/papergraph/topic/while> a pg:Topic ;
+    rdfs:label "While" .
+
+<https://example.org/papergraph/topic/work> a pg:Topic ;
+    rdfs:label "Work" .
+

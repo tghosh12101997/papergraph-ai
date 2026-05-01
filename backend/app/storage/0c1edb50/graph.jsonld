@@ -1,0 +1,913 @@
+[
+  {
+    "@id": "https://example.org/papergraph/dataset/wall-street-journal",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Wall Street Journal"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/encoder",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Encoder"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/wmt-2014-english-french",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "WMT 2014 English-French"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/model/lstm",
+    "@type": [
+      "https://example.org/papergraph/Model"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "LSTM"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/annotated-corpus",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "annotated corpus"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/noam-shazeer",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Noam Shazeer"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/deep-learning",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Deep Learning"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/lstm",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "LSTM"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/model/transformer",
+    "@type": [
+      "https://example.org/papergraph/Model"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Transformer"
+      },
+      {
+        "@value": "transformer"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/model/scaled-dot-product-attention",
+    "@type": [
+      "https://example.org/papergraph/Model"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Scaled Dot-Product Attention"
+      },
+      {
+        "@value": "scaled dot-product attention"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/gated-recurrent",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Gated Recurrent"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/long-short-term-memory",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Long Short-Term Memory"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/llion-jones",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Llion Jones"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/gated-recurrent",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Gated Recurrent"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/model/bytenet",
+    "@type": [
+      "https://example.org/papergraph/Model"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ByteNet"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/wsj",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "WSJ"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/english-french-dataset",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "English-French dataset"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/attention-mechanism",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Attention Mechanism"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/encoder-decoder",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Encoder-Decoder"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/deep-learning",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Deep Learning"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/english-german-dataset",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "English-German dataset"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/wmt-2014-english-german",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "WMT 2014 English-German"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/self-attention",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Self-Attention"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/feed-forward-network",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Feed-Forward Network"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/translation",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Translation"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/ashish-vaswani",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Ashish Vaswani"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/ukasz-kaiser",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Łukasz Kaiser"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/wmt-2014-english-to-german",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "WMT 2014 English-to-German"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/model/convs2s",
+    "@type": [
+      "https://example.org/papergraph/Model"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ConvS2S"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/training-data",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "training data"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/penn-treebank",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Penn Treebank"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/attention-mechanism",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Attention Mechanism"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/aidan-n-gomez",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Aidan N. Gomez"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/feed-forward-network",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Feed-Forward Network"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/niki-parmar",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Niki Parmar"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/attention",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Attention"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/training",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Training"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/model/self-attention",
+    "@type": [
+      "https://example.org/papergraph/Model"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "self-attention"
+      },
+      {
+        "@value": "Self-attention"
+      },
+      {
+        "@value": "Self-Attention"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/rnn",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "RNN"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/natural-language-processing",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Natural Language Processing"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/transformer",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Transformer"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/multi-head-attention",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Multi-Head Attention"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/encoder-decoder",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Encoder-Decoder"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/jakob-uszkoreit",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Jakob Uszkoreit"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/model/multi-head-attention",
+    "@type": [
+      "https://example.org/papergraph/Model"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "multi-head attention"
+      },
+      {
+        "@value": "Multi-head attention"
+      },
+      {
+        "@value": "Multi-Head Attention"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/dataset/wmt-2014-english-to-french",
+    "@type": [
+      "https://example.org/papergraph/Dataset"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "WMT 2014 English-to-French"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/scaled-dot-product-attention",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Scaled Dot-Product Attention"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/decoder",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Decoder"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/long-short-term-memory",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Long Short-Term Memory"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/multi-head-attention",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Multi-Head Attention"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/model/gnmt",
+    "@type": [
+      "https://example.org/papergraph/Model"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "GNMT"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/author/illia-polosukhin",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Illia Polosukhin"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/bleu",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Bleu"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/recurrent-neural-network",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Recurrent Neural Network"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/paper/0c1edb50",
+    "@type": [
+      "https://schema.org/ScholarlyArticle"
+    ],
+    "http://purl.org/dc/terms/abstract": [
+      {
+        "@value": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English- to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data. ∗"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "https://example.org/papergraph/author/ashish-vaswani"
+      },
+      {
+        "@id": "https://example.org/papergraph/author/noam-shazeer"
+      },
+      {
+        "@id": "https://example.org/papergraph/author/niki-parmar"
+      },
+      {
+        "@id": "https://example.org/papergraph/author/jakob-uszkoreit"
+      },
+      {
+        "@id": "https://example.org/papergraph/author/llion-jones"
+      },
+      {
+        "@id": "https://example.org/papergraph/author/aidan-n-gomez"
+      },
+      {
+        "@id": "https://example.org/papergraph/author/ukasz-kaiser"
+      },
+      {
+        "@id": "https://example.org/papergraph/author/illia-polosukhin"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "0c1edb50"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Attention Is All You Need"
+      }
+    ],
+    "https://example.org/papergraph/studiesTopic": [
+      {
+        "@id": "https://example.org/papergraph/topic/transformer"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/attention-mechanism"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/translation"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/bleu"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/training"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/encoder"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/decoder"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/attention"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/deep-learning"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/encoder-decoder"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/feed-forward-network"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/gated-recurrent"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/long-short-term-memory"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/lstm"
+      },
+      {
+        "@id": "https://example.org/papergraph/topic/multi-head-attention"
+      }
+    ],
+    "https://example.org/papergraph/usesDataset": [
+      {
+        "@id": "https://example.org/papergraph/dataset/annotated-corpus"
+      },
+      {
+        "@id": "https://example.org/papergraph/dataset/english-french-dataset"
+      },
+      {
+        "@id": "https://example.org/papergraph/dataset/english-german-dataset"
+      },
+      {
+        "@id": "https://example.org/papergraph/dataset/penn-treebank"
+      },
+      {
+        "@id": "https://example.org/papergraph/dataset/training-data"
+      },
+      {
+        "@id": "https://example.org/papergraph/dataset/wall-street-journal"
+      },
+      {
+        "@id": "https://example.org/papergraph/dataset/wmt-2014-english-french"
+      },
+      {
+        "@id": "https://example.org/papergraph/dataset/wmt-2014-english-german"
+      },
+      {
+        "@id": "https://example.org/papergraph/dataset/wmt-2014-english-to-french"
+      },
+      {
+        "@id": "https://example.org/papergraph/dataset/wmt-2014-english-to-german"
+      },
+      {
+        "@id": "https://example.org/papergraph/dataset/wsj"
+      }
+    ],
+    "https://example.org/papergraph/usesMethod": [
+      {
+        "@id": "https://example.org/papergraph/method/attention-mechanism"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/deep-learning"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/encoder-decoder"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/feed-forward-network"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/gated-recurrent"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/long-short-term-memory"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/lstm"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/multi-head-attention"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/natural-language-processing"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/positional-encoding"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/recurrent-neural-network"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/rnn"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/scaled-dot-product-attention"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/self-attention"
+      },
+      {
+        "@id": "https://example.org/papergraph/method/transformer"
+      }
+    ],
+    "https://example.org/papergraph/usesModel": [
+      {
+        "@id": "https://example.org/papergraph/model/bytenet"
+      },
+      {
+        "@id": "https://example.org/papergraph/model/convs2s"
+      },
+      {
+        "@id": "https://example.org/papergraph/model/gnmt"
+      },
+      {
+        "@id": "https://example.org/papergraph/model/lstm"
+      },
+      {
+        "@id": "https://example.org/papergraph/model/multi-head-attention"
+      },
+      {
+        "@id": "https://example.org/papergraph/model/rnn"
+      },
+      {
+        "@id": "https://example.org/papergraph/model/scaled-dot-product-attention"
+      },
+      {
+        "@id": "https://example.org/papergraph/model/self-attention"
+      },
+      {
+        "@id": "https://example.org/papergraph/model/transformer"
+      }
+    ],
+    "https://schema.org/keywords": [
+      {
+        "@value": "Transformer"
+      },
+      {
+        "@value": "Attention Mechanism"
+      },
+      {
+        "@value": "translation"
+      },
+      {
+        "@value": "bleu"
+      },
+      {
+        "@value": "training"
+      },
+      {
+        "@value": "encoder"
+      },
+      {
+        "@value": "decoder"
+      },
+      {
+        "@value": "attention"
+      },
+      {
+        "@value": "tasks"
+      },
+      {
+        "@value": "english"
+      },
+      {
+        "@value": "task"
+      },
+      {
+        "@value": "dominant"
+      },
+      {
+        "@value": "sequence"
+      },
+      {
+        "@value": "transduction"
+      },
+      {
+        "@value": "complex"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/positional-encoding",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Positional Encoding"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/method/transformer",
+    "@type": [
+      "https://example.org/papergraph/Method"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Transformer"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/topic/lstm",
+    "@type": [
+      "https://example.org/papergraph/Topic"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "LSTM"
+      }
+    ]
+  },
+  {
+    "@id": "https://example.org/papergraph/model/rnn",
+    "@type": [
+      "https://example.org/papergraph/Model"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "RNN"
+      },
+      {
+        "@value": "rnn"
+      }
+    ]
+  }
+]

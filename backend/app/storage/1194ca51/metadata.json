@@ -1,0 +1,542 @@
+{
+  "paper_id": "1194ca51",
+  "filename": "1706.03762v7.pdf",
+  "extractor": "hybrid",
+  "entities": {
+    "title": "Provided proper attribution is provided, Google hereby grants permission to",
+    "authors": [
+      "Attention Is All You Need Ashish Vaswani",
+      "Google Brain",
+      "Noam Shazeer"
+    ],
+    "methods": [
+      "Deep Learning",
+      "Natural Language Processing",
+      "RNN",
+      "Recurrent Neural Network",
+      "Transformer"
+    ],
+    "datasets": [
+      "annotated",
+      "English-French",
+      "English-French dataset",
+      "English-German",
+      "English-German dataset"
+    ],
+    "models": [
+      "rnn",
+      "RNN"
+    ],
+    "keywords": [
+      "attention",
+      "best",
+      "transformer",
+      "translation",
+      "while",
+      "bleu",
+      "training",
+      "work",
+      "codebase",
+      "neural",
+      "encoder",
+      "decoder"
+    ],
+    "topics": [
+      "Attention",
+      "Best",
+      "Bleu",
+      "Deep Learning",
+      "Natural Language Processing",
+      "Recurrent Neural Network",
+      "Rnn",
+      "Training",
+      "Transformer",
+      "Translation",
+      "While",
+      "Work"
+    ],
+    "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English- to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data. ∗Equal contribution. Listing order is random. Jakob proposed replacing RNNs with self-attention and started the effort to evaluate this idea. Ashish, with Illia, designed and implemented the first Transformer models and has been crucially involved in every aspect of this work. Noam proposed scaled dot-product attention, multi-head attention and the parameter-free position representation and became the other person involved in nearly every detail. Niki designed, implemented, tuned and evaluated countless model variants in our original codebase and tensor2tensor. Llion also experimented with novel model variants, was responsible for our initial codebase, and efficient inference and visualizations. Lukasz and Aidan spent countless long days designing various parts of and implementing tensor2tensor, replacing our earlier codebase, greatly improving results and massively accelerating our research. †Work performed while at Google Brain. ‡Work performed while at Google Research. 31st Conference on Neural Information Processing Systems (NIPS 2017), Long Beach, CA, USA. arXiv:1706.03762v7 [cs.CL] 2 Aug 2023"
+  },
+  "triples": [
+    {
+      "subject": "https://example.org/papergraph/author/attention-is-all-you-need-ashish-vaswani",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/attention-is-all-you-need-ashish-vaswani",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Attention Is All You Need Ashish Vaswani"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/google-brain",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/google-brain",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Google Brain"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/noam-shazeer",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+      "subject": "https://example.org/papergraph/author/noam-shazeer",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Noam Shazeer"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/annotated",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/annotated",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "annotated"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/english-french",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/english-french",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "English-French"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/english-french-dataset",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/english-french-dataset",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "English-French dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/english-german",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/english-german",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "English-German"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/english-german-dataset",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/dataset/english-german-dataset",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "English-German dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/deep-learning",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/deep-learning",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Deep Learning"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/natural-language-processing",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/natural-language-processing",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Natural Language Processing"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/recurrent-neural-network",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/recurrent-neural-network",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Recurrent Neural Network"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/rnn",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/rnn",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "RNN"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/transformer",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Method"
+    },
+    {
+      "subject": "https://example.org/papergraph/method/transformer",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Transformer"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/rnn",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Model"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/rnn",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "RNN"
+    },
+    {
+      "subject": "https://example.org/papergraph/model/rnn",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "rnn"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "http://purl.org/dc/terms/abstract",
+      "object": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English- to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data. ∗Equal contribution. Listing order is random. Jakob proposed replacing RNNs with self-attention and started the effort to evaluate this idea. Ashish, with Illia, designed and implemented the first Transformer models and has been crucially involved in every aspect of this work. Noam proposed scaled dot-product attention, multi-head attention and the parameter-free position representation and became the other person involved in nearly every detail. Niki designed, implemented, tuned and evaluated countless model variants in our original codebase and tensor2tensor. Llion also experimented with novel model variants, was responsible for our initial codebase, and efficient inference and visualizations. Lukasz and Aidan spent countless long days designing various parts of and implementing tensor2tensor, replacing our earlier codebase, greatly improving results and massively accelerating our research. †Work performed while at Google Brain. ‡Work performed while at Google Research. 31st Conference on Neural Information Processing Systems (NIPS 2017), Long Beach, CA, USA. arXiv:1706.03762v7 [cs.CL] 2 Aug 2023"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/attention-is-all-you-need-ashish-vaswani"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/google-brain"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "http://purl.org/dc/terms/creator",
+      "object": "https://example.org/papergraph/author/noam-shazeer"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "http://purl.org/dc/terms/identifier",
+      "object": "1194ca51"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "http://purl.org/dc/terms/title",
+      "object": "Provided proper attribution is provided, Google hereby grants permission to"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://schema.org/ScholarlyArticle"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/best"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/bleu"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/deep-learning"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/natural-language-processing"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/recurrent-neural-network"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/rnn"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/training"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/transformer"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/translation"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/while"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/studiesTopic",
+      "object": "https://example.org/papergraph/topic/work"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/annotated"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/english-french"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/english-french-dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/english-german"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/usesDataset",
+      "object": "https://example.org/papergraph/dataset/english-german-dataset"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/deep-learning"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/natural-language-processing"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/recurrent-neural-network"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/rnn"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/usesMethod",
+      "object": "https://example.org/papergraph/method/transformer"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://example.org/papergraph/usesModel",
+      "object": "https://example.org/papergraph/model/rnn"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://schema.org/keywords",
+      "object": "attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://schema.org/keywords",
+      "object": "best"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://schema.org/keywords",
+      "object": "bleu"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://schema.org/keywords",
+      "object": "codebase"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://schema.org/keywords",
+      "object": "decoder"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://schema.org/keywords",
+      "object": "encoder"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://schema.org/keywords",
+      "object": "neural"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://schema.org/keywords",
+      "object": "training"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://schema.org/keywords",
+      "object": "transformer"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://schema.org/keywords",
+      "object": "translation"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://schema.org/keywords",
+      "object": "while"
+    },
+    {
+      "subject": "https://example.org/papergraph/paper/1194ca51",
+      "predicate": "https://schema.org/keywords",
+      "object": "work"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/attention",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/attention",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Attention"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/best",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/best",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Best"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/bleu",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/bleu",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Bleu"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/deep-learning",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/deep-learning",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Deep Learning"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/natural-language-processing",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/natural-language-processing",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Natural Language Processing"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/recurrent-neural-network",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/recurrent-neural-network",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Recurrent Neural Network"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/rnn",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/rnn",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Rnn"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/training",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/training",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Training"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/transformer",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/transformer",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Transformer"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/translation",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/translation",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Translation"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/while",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/while",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "While"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/work",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "object": "https://example.org/papergraph/Topic"
+    },
+    {
+      "subject": "https://example.org/papergraph/topic/work",
+      "predicate": "http://www.w3.org/2000/01/rdf-schema#label",
+      "object": "Work"
+    }
+  ],
+  "export_urls": {
+    "ttl": "/api/papers/1194ca51/export?format=ttl",
+    "rdf": "/api/papers/1194ca51/export?format=rdf",
+    "jsonld": "/api/papers/1194ca51/export?format=jsonld"
+  }
+}

@@ -1,0 +1,265 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix pg: <https://example.org/papergraph/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://example.org/papergraph/paper/0c1edb50> a schema:ScholarlyArticle ;
+    dcterms:abstract "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English- to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data. ∗" ;
+    dcterms:creator <https://example.org/papergraph/author/aidan-n-gomez>,
+        <https://example.org/papergraph/author/ashish-vaswani>,
+        <https://example.org/papergraph/author/illia-polosukhin>,
+        <https://example.org/papergraph/author/jakob-uszkoreit>,
+        <https://example.org/papergraph/author/llion-jones>,
+        <https://example.org/papergraph/author/niki-parmar>,
+        <https://example.org/papergraph/author/noam-shazeer>,
+        <https://example.org/papergraph/author/ukasz-kaiser> ;
+    dcterms:identifier "0c1edb50" ;
+    dcterms:title "Attention Is All You Need" ;
+    pg:studiesTopic <https://example.org/papergraph/topic/attention>,
+        <https://example.org/papergraph/topic/attention-mechanism>,
+        <https://example.org/papergraph/topic/bleu>,
+        <https://example.org/papergraph/topic/decoder>,
+        <https://example.org/papergraph/topic/deep-learning>,
+        <https://example.org/papergraph/topic/encoder>,
+        <https://example.org/papergraph/topic/encoder-decoder>,
+        <https://example.org/papergraph/topic/feed-forward-network>,
+        <https://example.org/papergraph/topic/gated-recurrent>,
+        <https://example.org/papergraph/topic/long-short-term-memory>,
+        <https://example.org/papergraph/topic/lstm>,
+        <https://example.org/papergraph/topic/multi-head-attention>,
+        <https://example.org/papergraph/topic/training>,
+        <https://example.org/papergraph/topic/transformer>,
+        <https://example.org/papergraph/topic/translation> ;
+    pg:usesDataset <https://example.org/papergraph/dataset/annotated-corpus>,
+        <https://example.org/papergraph/dataset/english-french-dataset>,
+        <https://example.org/papergraph/dataset/english-german-dataset>,
+        <https://example.org/papergraph/dataset/penn-treebank>,
+        <https://example.org/papergraph/dataset/training-data>,
+        <https://example.org/papergraph/dataset/wall-street-journal>,
+        <https://example.org/papergraph/dataset/wmt-2014-english-french>,
+        <https://example.org/papergraph/dataset/wmt-2014-english-german>,
+        <https://example.org/papergraph/dataset/wmt-2014-english-to-french>,
+        <https://example.org/papergraph/dataset/wmt-2014-english-to-german>,
+        <https://example.org/papergraph/dataset/wsj> ;
+    pg:usesMethod <https://example.org/papergraph/method/attention-mechanism>,
+        <https://example.org/papergraph/method/deep-learning>,
+        <https://example.org/papergraph/method/encoder-decoder>,
+        <https://example.org/papergraph/method/feed-forward-network>,
+        <https://example.org/papergraph/method/gated-recurrent>,
+        <https://example.org/papergraph/method/long-short-term-memory>,
+        <https://example.org/papergraph/method/lstm>,
+        <https://example.org/papergraph/method/multi-head-attention>,
+        <https://example.org/papergraph/method/natural-language-processing>,
+        <https://example.org/papergraph/method/positional-encoding>,
+        <https://example.org/papergraph/method/recurrent-neural-network>,
+        <https://example.org/papergraph/method/rnn>,
+        <https://example.org/papergraph/method/scaled-dot-product-attention>,
+        <https://example.org/papergraph/method/self-attention>,
+        <https://example.org/papergraph/method/transformer> ;
+    pg:usesModel <https://example.org/papergraph/model/bytenet>,
+        <https://example.org/papergraph/model/convs2s>,
+        <https://example.org/papergraph/model/gnmt>,
+        <https://example.org/papergraph/model/lstm>,
+        <https://example.org/papergraph/model/multi-head-attention>,
+        <https://example.org/papergraph/model/rnn>,
+        <https://example.org/papergraph/model/scaled-dot-product-attention>,
+        <https://example.org/papergraph/model/self-attention>,
+        <https://example.org/papergraph/model/transformer> ;
+    schema:keywords "Attention Mechanism",
+        "Transformer",
+        "attention",
+        "bleu",
+        "complex",
+        "decoder",
+        "dominant",
+        "encoder",
+        "english",
+        "sequence",
+        "task",
+        "tasks",
+        "training",
+        "transduction",
+        "translation" .
+
+<https://example.org/papergraph/author/aidan-n-gomez> a foaf:Person ;
+    rdfs:label "Aidan N. Gomez" .
+
+<https://example.org/papergraph/author/ashish-vaswani> a foaf:Person ;
+    rdfs:label "Ashish Vaswani" .
+
+<https://example.org/papergraph/author/illia-polosukhin> a foaf:Person ;
+    rdfs:label "Illia Polosukhin" .
+
+<https://example.org/papergraph/author/jakob-uszkoreit> a foaf:Person ;
+    rdfs:label "Jakob Uszkoreit" .
+
+<https://example.org/papergraph/author/llion-jones> a foaf:Person ;
+    rdfs:label "Llion Jones" .
+
+<https://example.org/papergraph/author/niki-parmar> a foaf:Person ;
+    rdfs:label "Niki Parmar" .
+
+<https://example.org/papergraph/author/noam-shazeer> a foaf:Person ;
+    rdfs:label "Noam Shazeer" .
+
+<https://example.org/papergraph/author/ukasz-kaiser> a foaf:Person ;
+    rdfs:label "Łukasz Kaiser" .
+
+<https://example.org/papergraph/dataset/annotated-corpus> a pg:Dataset ;
+    rdfs:label "annotated corpus" .
+
+<https://example.org/papergraph/dataset/english-french-dataset> a pg:Dataset ;
+    rdfs:label "English-French dataset" .
+
+<https://example.org/papergraph/dataset/english-german-dataset> a pg:Dataset ;
+    rdfs:label "English-German dataset" .
+
+<https://example.org/papergraph/dataset/penn-treebank> a pg:Dataset ;
+    rdfs:label "Penn Treebank" .
+
+<https://example.org/papergraph/dataset/training-data> a pg:Dataset ;
+    rdfs:label "training data" .
+
+<https://example.org/papergraph/dataset/wall-street-journal> a pg:Dataset ;
+    rdfs:label "Wall Street Journal" .
+
+<https://example.org/papergraph/dataset/wmt-2014-english-french> a pg:Dataset ;
+    rdfs:label "WMT 2014 English-French" .
+
+<https://example.org/papergraph/dataset/wmt-2014-english-german> a pg:Dataset ;
+    rdfs:label "WMT 2014 English-German" .
+
+<https://example.org/papergraph/dataset/wmt-2014-english-to-french> a pg:Dataset ;
+    rdfs:label "WMT 2014 English-to-French" .
+
+<https://example.org/papergraph/dataset/wmt-2014-english-to-german> a pg:Dataset ;
+    rdfs:label "WMT 2014 English-to-German" .
+
+<https://example.org/papergraph/dataset/wsj> a pg:Dataset ;
+    rdfs:label "WSJ" .
+
+<https://example.org/papergraph/method/attention-mechanism> a pg:Method ;
+    rdfs:label "Attention Mechanism" .
+
+<https://example.org/papergraph/method/deep-learning> a pg:Method ;
+    rdfs:label "Deep Learning" .
+
+<https://example.org/papergraph/method/encoder-decoder> a pg:Method ;
+    rdfs:label "Encoder-Decoder" .
+
+<https://example.org/papergraph/method/feed-forward-network> a pg:Method ;
+    rdfs:label "Feed-Forward Network" .
+
+<https://example.org/papergraph/method/gated-recurrent> a pg:Method ;
+    rdfs:label "Gated Recurrent" .
+
+<https://example.org/papergraph/method/long-short-term-memory> a pg:Method ;
+    rdfs:label "Long Short-Term Memory" .
+
+<https://example.org/papergraph/method/lstm> a pg:Method ;
+    rdfs:label "LSTM" .
+
+<https://example.org/papergraph/method/multi-head-attention> a pg:Method ;
+    rdfs:label "Multi-Head Attention" .
+
+<https://example.org/papergraph/method/natural-language-processing> a pg:Method ;
+    rdfs:label "Natural Language Processing" .
+
+<https://example.org/papergraph/method/positional-encoding> a pg:Method ;
+    rdfs:label "Positional Encoding" .
+
+<https://example.org/papergraph/method/recurrent-neural-network> a pg:Method ;
+    rdfs:label "Recurrent Neural Network" .
+
+<https://example.org/papergraph/method/rnn> a pg:Method ;
+    rdfs:label "RNN" .
+
+<https://example.org/papergraph/method/scaled-dot-product-attention> a pg:Method ;
+    rdfs:label "Scaled Dot-Product Attention" .
+
+<https://example.org/papergraph/method/self-attention> a pg:Method ;
+    rdfs:label "Self-Attention" .
+
+<https://example.org/papergraph/method/transformer> a pg:Method ;
+    rdfs:label "Transformer" .
+
+<https://example.org/papergraph/model/bytenet> a pg:Model ;
+    rdfs:label "ByteNet" .
+
+<https://example.org/papergraph/model/convs2s> a pg:Model ;
+    rdfs:label "ConvS2S" .
+
+<https://example.org/papergraph/model/gnmt> a pg:Model ;
+    rdfs:label "GNMT" .
+
+<https://example.org/papergraph/model/lstm> a pg:Model ;
+    rdfs:label "LSTM" .
+
+<https://example.org/papergraph/model/multi-head-attention> a pg:Model ;
+    rdfs:label "Multi-Head Attention",
+        "Multi-head attention",
+        "multi-head attention" .
+
+<https://example.org/papergraph/model/rnn> a pg:Model ;
+    rdfs:label "RNN",
+        "rnn" .
+
+<https://example.org/papergraph/model/scaled-dot-product-attention> a pg:Model ;
+    rdfs:label "Scaled Dot-Product Attention",
+        "scaled dot-product attention" .
+
+<https://example.org/papergraph/model/self-attention> a pg:Model ;
+    rdfs:label "Self-Attention",
+        "Self-attention",
+        "self-attention" .
+
+<https://example.org/papergraph/model/transformer> a pg:Model ;
+    rdfs:label "Transformer",
+        "transformer" .
+
+<https://example.org/papergraph/topic/attention> a pg:Topic ;
+    rdfs:label "Attention" .
+
+<https://example.org/papergraph/topic/attention-mechanism> a pg:Topic ;
+    rdfs:label "Attention Mechanism" .
+
+<https://example.org/papergraph/topic/bleu> a pg:Topic ;
+    rdfs:label "Bleu" .
+
+<https://example.org/papergraph/topic/decoder> a pg:Topic ;
+    rdfs:label "Decoder" .
+
+<https://example.org/papergraph/topic/deep-learning> a pg:Topic ;
+    rdfs:label "Deep Learning" .
+
+<https://example.org/papergraph/topic/encoder> a pg:Topic ;
+    rdfs:label "Encoder" .
+
+<https://example.org/papergraph/topic/encoder-decoder> a pg:Topic ;
+    rdfs:label "Encoder-Decoder" .
+
+<https://example.org/papergraph/topic/feed-forward-network> a pg:Topic ;
+    rdfs:label "Feed-Forward Network" .
+
+<https://example.org/papergraph/topic/gated-recurrent> a pg:Topic ;
+    rdfs:label "Gated Recurrent" .
+
+<https://example.org/papergraph/topic/long-short-term-memory> a pg:Topic ;
+    rdfs:label "Long Short-Term Memory" .
+
+<https://example.org/papergraph/topic/lstm> a pg:Topic ;
+    rdfs:label "LSTM" .
+
+<https://example.org/papergraph/topic/multi-head-attention> a pg:Topic ;
+    rdfs:label "Multi-Head Attention" .
+
+<https://example.org/papergraph/topic/training> a pg:Topic ;
+    rdfs:label "Training" .
+
+<https://example.org/papergraph/topic/transformer> a pg:Topic ;
+    rdfs:label "Transformer" .
+
+<https://example.org/papergraph/topic/translation> a pg:Topic ;
+    rdfs:label "Translation" .
+
