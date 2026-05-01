@@ -1,36 +1,37 @@
-# Python
+# Python virtual environments
 .venv/
 venv/
 env/
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.pytest_cache/
 
-# Environment
+# Environment files
 .env
 .env.local
-
-# OS
-.DS_Store
-Thumbs.db
 
 # IDE
 .vscode/
 .idea/
+
+# OS
+.DS_Store
+Thumbs.db
 
 # Streamlit
 .streamlit/secrets.toml
 
 # Node / frontend
 node_modules/
-dist/
 build/
+dist/
 
-# Data / generated outputs
-backend/app/storage/uploads/
-backend/app/storage/exports/
+# Generated project files
+backend/app/storage/
+backend/backend/app/storage/
 *.ttl
 *.rdf
 *.jsonld
