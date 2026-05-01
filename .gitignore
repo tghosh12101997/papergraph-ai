@@ -1,0 +1,39 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Node / frontend
+node_modules/
+dist/
+build/
+
+# Data / generated outputs
+backend/app/storage/uploads/
+backend/app/storage/exports/
+*.ttl
+*.rdf
+*.jsonld
+
+# Logs
+*.log
